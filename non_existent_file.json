@@ -1,0 +1,85 @@
+{
+    "TestCategory": {
+        "Subcategory": [
+            ".tmp"
+        ]
+    },
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data (CSV, XML, JSON, etc.)": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml"
+        ]
+    },
+    "Development": {
+        "Project": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ]
+    },
+    "Executables": {
+        "Installers": [
+            ".exe",
+            ".msi"
+        ],
+        "Scripts": [
+            ".bat",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".rar",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup"
+        ]
+    },
+    "Disk Image": {
+        "ISO & Disk Images": [
+            ".iso",
+            ".img"
+        ]
+    },
+    "Presentations": {
+        "PowerPoint Files": [
+            ".pptx",
+            ".key",
+            ".ppt"
+        ]
+    },
+    "Spreadsheets": {
+        "Excel and CSV Files": [
+            ".xls",
+            ".xlsx",
+            ".csv"
+        ]
+    },
+    "Other": {}
+}

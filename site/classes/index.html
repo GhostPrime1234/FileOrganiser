@@ -1,0 +1,2376 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../usage/">
+      
+      
+        <link rel="next" href="../examples/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.45">
+    
+    
+      
+        <title>Classes - FileOrganizer Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.0253249f.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#classes" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="FileOrganizer Documentation" class="md-header__button md-logo" aria-label="FileOrganizer Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FileOrganizer Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Classes
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="FileOrganizer Documentation" class="md-nav__button md-logo" aria-label="FileOrganizer Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    FileOrganizer Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../installation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../usage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Usage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Classes
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Classes
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#fileorganizer" class="md-nav__link">
+    <span class="md-ellipsis">
+      FileOrganizer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file_organizer.FileOrganizer" class="md-nav__link">
+    <span class="md-ellipsis">
+      FileOrganizer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file_organizer.FileOrganizer.__init__" class="md-nav__link">
+    <span class="md-ellipsis">
+      __init__
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file_organizer.FileOrganizer.load_categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      load_categories
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="load_categories">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#file_organizer.FileOrganizer.load_categories--create-a-temporary-json-file-with-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create a temporary JSON file with categories
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file_organizer.FileOrganizer.organise_downloads" class="md-nav__link">
+    <span class="md-ellipsis">
+      organise_downloads
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="organise_downloads">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#file_organizer.FileOrganizer.organise_downloads--create-a-temporary-json-file-with-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create a temporary JSON file with categories
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file_organizer.FileOrganizer.organize_files_in_directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      organize_files_in_directory
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="organize_files_in_directory">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#file_organizer.FileOrganizer.organize_files_in_directory--setup-a-test-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup a test environment
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file_organizer.FileOrganizer.save_categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      save_categories
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file_organizer.FileOrganizer.sync_categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      sync_categories
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../examples/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Examples
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customising/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customizing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../logging/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Logging
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../error_handling/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Error Handling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../testing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Testing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contributing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#fileorganizer" class="md-nav__link">
+    <span class="md-ellipsis">
+      FileOrganizer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file_organizer.FileOrganizer" class="md-nav__link">
+    <span class="md-ellipsis">
+      FileOrganizer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file_organizer.FileOrganizer.__init__" class="md-nav__link">
+    <span class="md-ellipsis">
+      __init__
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file_organizer.FileOrganizer.load_categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      load_categories
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="load_categories">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#file_organizer.FileOrganizer.load_categories--create-a-temporary-json-file-with-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create a temporary JSON file with categories
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file_organizer.FileOrganizer.organise_downloads" class="md-nav__link">
+    <span class="md-ellipsis">
+      organise_downloads
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="organise_downloads">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#file_organizer.FileOrganizer.organise_downloads--create-a-temporary-json-file-with-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create a temporary JSON file with categories
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file_organizer.FileOrganizer.organize_files_in_directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      organize_files_in_directory
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="organize_files_in_directory">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#file_organizer.FileOrganizer.organize_files_in_directory--setup-a-test-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup a test environment
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file_organizer.FileOrganizer.save_categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      save_categories
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file_organizer.FileOrganizer.sync_categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      sync_categories
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="classes">Classes</h1>
+<h2 id="fileorganizer">FileOrganizer</h2>
+
+
+<div class="doc doc-object doc-class">
+
+
+
+<a id="file_organizer.FileOrganizer"></a>
+    <div class="doc doc-contents first">
+
+
+        <p>A class that organizes files based on their extensions in the current directory.</p>
+
+
+
+
+
+
+              <details class="quote">
+                <summary>Source code in <code>file_organizer.py</code></summary>
+                <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 10</span>
+<span class="normal"> 11</span>
+<span class="normal"> 12</span>
+<span class="normal"> 13</span>
+<span class="normal"> 14</span>
+<span class="normal"> 15</span>
+<span class="normal"> 16</span>
+<span class="normal"> 17</span>
+<span class="normal"> 18</span>
+<span class="normal"> 19</span>
+<span class="normal"> 20</span>
+<span class="normal"> 21</span>
+<span class="normal"> 22</span>
+<span class="normal"> 23</span>
+<span class="normal"> 24</span>
+<span class="normal"> 25</span>
+<span class="normal"> 26</span>
+<span class="normal"> 27</span>
+<span class="normal"> 28</span>
+<span class="normal"> 29</span>
+<span class="normal"> 30</span>
+<span class="normal"> 31</span>
+<span class="normal"> 32</span>
+<span class="normal"> 33</span>
+<span class="normal"> 34</span>
+<span class="normal"> 35</span>
+<span class="normal"> 36</span>
+<span class="normal"> 37</span>
+<span class="normal"> 38</span>
+<span class="normal"> 39</span>
+<span class="normal"> 40</span>
+<span class="normal"> 41</span>
+<span class="normal"> 42</span>
+<span class="normal"> 43</span>
+<span class="normal"> 44</span>
+<span class="normal"> 45</span>
+<span class="normal"> 46</span>
+<span class="normal"> 47</span>
+<span class="normal"> 48</span>
+<span class="normal"> 49</span>
+<span class="normal"> 50</span>
+<span class="normal"> 51</span>
+<span class="normal"> 52</span>
+<span class="normal"> 53</span>
+<span class="normal"> 54</span>
+<span class="normal"> 55</span>
+<span class="normal"> 56</span>
+<span class="normal"> 57</span>
+<span class="normal"> 58</span>
+<span class="normal"> 59</span>
+<span class="normal"> 60</span>
+<span class="normal"> 61</span>
+<span class="normal"> 62</span>
+<span class="normal"> 63</span>
+<span class="normal"> 64</span>
+<span class="normal"> 65</span>
+<span class="normal"> 66</span>
+<span class="normal"> 67</span>
+<span class="normal"> 68</span>
+<span class="normal"> 69</span>
+<span class="normal"> 70</span>
+<span class="normal"> 71</span>
+<span class="normal"> 72</span>
+<span class="normal"> 73</span>
+<span class="normal"> 74</span>
+<span class="normal"> 75</span>
+<span class="normal"> 76</span>
+<span class="normal"> 77</span>
+<span class="normal"> 78</span>
+<span class="normal"> 79</span>
+<span class="normal"> 80</span>
+<span class="normal"> 81</span>
+<span class="normal"> 82</span>
+<span class="normal"> 83</span>
+<span class="normal"> 84</span>
+<span class="normal"> 85</span>
+<span class="normal"> 86</span>
+<span class="normal"> 87</span>
+<span class="normal"> 88</span>
+<span class="normal"> 89</span>
+<span class="normal"> 90</span>
+<span class="normal"> 91</span>
+<span class="normal"> 92</span>
+<span class="normal"> 93</span>
+<span class="normal"> 94</span>
+<span class="normal"> 95</span>
+<span class="normal"> 96</span>
+<span class="normal"> 97</span>
+<span class="normal"> 98</span>
+<span class="normal"> 99</span>
+<span class="normal">100</span>
+<span class="normal">101</span>
+<span class="normal">102</span>
+<span class="normal">103</span>
+<span class="normal">104</span>
+<span class="normal">105</span>
+<span class="normal">106</span>
+<span class="normal">107</span>
+<span class="normal">108</span>
+<span class="normal">109</span>
+<span class="normal">110</span>
+<span class="normal">111</span>
+<span class="normal">112</span>
+<span class="normal">113</span>
+<span class="normal">114</span>
+<span class="normal">115</span>
+<span class="normal">116</span>
+<span class="normal">117</span>
+<span class="normal">118</span>
+<span class="normal">119</span>
+<span class="normal">120</span>
+<span class="normal">121</span>
+<span class="normal">122</span>
+<span class="normal">123</span>
+<span class="normal">124</span>
+<span class="normal">125</span>
+<span class="normal">126</span>
+<span class="normal">127</span>
+<span class="normal">128</span>
+<span class="normal">129</span>
+<span class="normal">130</span>
+<span class="normal">131</span>
+<span class="normal">132</span>
+<span class="normal">133</span>
+<span class="normal">134</span>
+<span class="normal">135</span>
+<span class="normal">136</span>
+<span class="normal">137</span>
+<span class="normal">138</span>
+<span class="normal">139</span>
+<span class="normal">140</span>
+<span class="normal">141</span>
+<span class="normal">142</span>
+<span class="normal">143</span>
+<span class="normal">144</span>
+<span class="normal">145</span>
+<span class="normal">146</span>
+<span class="normal">147</span>
+<span class="normal">148</span>
+<span class="normal">149</span>
+<span class="normal">150</span>
+<span class="normal">151</span>
+<span class="normal">152</span>
+<span class="normal">153</span>
+<span class="normal">154</span>
+<span class="normal">155</span>
+<span class="normal">156</span>
+<span class="normal">157</span>
+<span class="normal">158</span>
+<span class="normal">159</span>
+<span class="normal">160</span>
+<span class="normal">161</span>
+<span class="normal">162</span>
+<span class="normal">163</span>
+<span class="normal">164</span>
+<span class="normal">165</span>
+<span class="normal">166</span>
+<span class="normal">167</span>
+<span class="normal">168</span>
+<span class="normal">169</span>
+<span class="normal">170</span>
+<span class="normal">171</span>
+<span class="normal">172</span>
+<span class="normal">173</span>
+<span class="normal">174</span>
+<span class="normal">175</span>
+<span class="normal">176</span>
+<span class="normal">177</span>
+<span class="normal">178</span>
+<span class="normal">179</span>
+<span class="normal">180</span>
+<span class="normal">181</span>
+<span class="normal">182</span>
+<span class="normal">183</span>
+<span class="normal">184</span>
+<span class="normal">185</span>
+<span class="normal">186</span>
+<span class="normal">187</span>
+<span class="normal">188</span>
+<span class="normal">189</span>
+<span class="normal">190</span>
+<span class="normal">191</span>
+<span class="normal">192</span>
+<span class="normal">193</span>
+<span class="normal">194</span>
+<span class="normal">195</span>
+<span class="normal">196</span>
+<span class="normal">197</span>
+<span class="normal">198</span>
+<span class="normal">199</span>
+<span class="normal">200</span>
+<span class="normal">201</span>
+<span class="normal">202</span>
+<span class="normal">203</span>
+<span class="normal">204</span>
+<span class="normal">205</span>
+<span class="normal">206</span>
+<span class="normal">207</span>
+<span class="normal">208</span>
+<span class="normal">209</span>
+<span class="normal">210</span>
+<span class="normal">211</span>
+<span class="normal">212</span>
+<span class="normal">213</span>
+<span class="normal">214</span>
+<span class="normal">215</span>
+<span class="normal">216</span>
+<span class="normal">217</span>
+<span class="normal">218</span>
+<span class="normal">219</span>
+<span class="normal">220</span>
+<span class="normal">221</span>
+<span class="normal">222</span>
+<span class="normal">223</span>
+<span class="normal">224</span>
+<span class="normal">225</span>
+<span class="normal">226</span>
+<span class="normal">227</span>
+<span class="normal">228</span>
+<span class="normal">229</span>
+<span class="normal">230</span>
+<span class="normal">231</span>
+<span class="normal">232</span>
+<span class="normal">233</span>
+<span class="normal">234</span>
+<span class="normal">235</span>
+<span class="normal">236</span>
+<span class="normal">237</span>
+<span class="normal">238</span>
+<span class="normal">239</span>
+<span class="normal">240</span>
+<span class="normal">241</span>
+<span class="normal">242</span>
+<span class="normal">243</span>
+<span class="normal">244</span>
+<span class="normal">245</span>
+<span class="normal">246</span>
+<span class="normal">247</span>
+<span class="normal">248</span>
+<span class="normal">249</span>
+<span class="normal">250</span>
+<span class="normal">251</span>
+<span class="normal">252</span>
+<span class="normal">253</span>
+<span class="normal">254</span>
+<span class="normal">255</span>
+<span class="normal">256</span>
+<span class="normal">257</span>
+<span class="normal">258</span>
+<span class="normal">259</span>
+<span class="normal">260</span>
+<span class="normal">261</span>
+<span class="normal">262</span>
+<span class="normal">263</span>
+<span class="normal">264</span>
+<span class="normal">265</span>
+<span class="normal">266</span>
+<span class="normal">267</span>
+<span class="normal">268</span>
+<span class="normal">269</span>
+<span class="normal">270</span>
+<span class="normal">271</span>
+<span class="normal">272</span>
+<span class="normal">273</span>
+<span class="normal">274</span>
+<span class="normal">275</span>
+<span class="normal">276</span>
+<span class="normal">277</span>
+<span class="normal">278</span>
+<span class="normal">279</span>
+<span class="normal">280</span>
+<span class="normal">281</span>
+<span class="normal">282</span>
+<span class="normal">283</span>
+<span class="normal">284</span>
+<span class="normal">285</span>
+<span class="normal">286</span>
+<span class="normal">287</span>
+<span class="normal">288</span>
+<span class="normal">289</span>
+<span class="normal">290</span>
+<span class="normal">291</span>
+<span class="normal">292</span>
+<span class="normal">293</span>
+<span class="normal">294</span>
+<span class="normal">295</span>
+<span class="normal">296</span>
+<span class="normal">297</span>
+<span class="normal">298</span>
+<span class="normal">299</span>
+<span class="normal">300</span>
+<span class="normal">301</span>
+<span class="normal">302</span>
+<span class="normal">303</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">class</span> <span class="nc">FileOrganizer</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    A class that organizes files based on their extensions in the current directory.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">folder_to_watch</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">json_file</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Initializes the FileOrganizer instance.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            folder_to_watch (str): The folder to organize files.</span>
+<span class="sd">            json_file (str): Path to the JSON containing category information.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">folder_to_watch</span> <span class="o">=</span> <span class="n">folder_to_watch</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">json_file</span> <span class="o">=</span> <span class="n">json_file</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">default_categories</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;Documents &amp; Data&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;Documents&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;.docx&quot;</span><span class="p">,</span> <span class="s2">&quot;.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;.odt&quot;</span><span class="p">,</span> <span class="s2">&quot;.rtf&quot;</span><span class="p">,</span> <span class="s2">&quot;.html&quot;</span><span class="p">,</span> <span class="s2">&quot;.epub&quot;</span><span class="p">,</span> <span class="s2">&quot;.md&quot;</span><span class="p">,</span> <span class="s2">&quot;.tex&quot;</span><span class="p">,</span> <span class="s2">&quot;.bib&quot;</span><span class="p">],</span>
+                <span class="s2">&quot;Data (CSV, XML, JSON, etc.)&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;.csv&quot;</span><span class="p">,</span> <span class="s2">&quot;.xml&quot;</span><span class="p">,</span> <span class="s2">&quot;.json&quot;</span><span class="p">,</span> <span class="s2">&quot;.yaml&quot;</span><span class="p">]</span>
+            <span class="p">},</span>
+            <span class="s2">&quot;Development&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;Project&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;.py&quot;</span><span class="p">,</span> <span class="s2">&quot;.cpp&quot;</span><span class="p">,</span> <span class="s2">&quot;.java&quot;</span><span class="p">,</span> <span class="s2">&quot;.js&quot;</span><span class="p">,</span> <span class="s2">&quot;.html&quot;</span><span class="p">,</span> <span class="s2">&quot;.css&quot;</span><span class="p">,</span> <span class="s2">&quot;.rb&quot;</span><span class="p">,</span> <span class="s2">&quot;.go&quot;</span><span class="p">,</span> <span class="s2">&quot;.php&quot;</span><span class="p">]</span>
+            <span class="p">},</span>
+            <span class="s2">&quot;Executables&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;Installers&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;.exe&quot;</span><span class="p">,</span> <span class="s2">&quot;.msi&quot;</span><span class="p">],</span>
+                <span class="s2">&quot;Scripts&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;.bat&quot;</span><span class="p">,</span> <span class="s2">&quot;.sh&quot;</span><span class="p">]</span>
+            <span class="p">},</span>
+            <span class="s2">&quot;Archives&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;Compressed Files&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;.zip&quot;</span><span class="p">,</span> <span class="s2">&quot;.rar&quot;</span><span class="p">,</span> <span class="s2">&quot;.tar&quot;</span><span class="p">,</span> <span class="s2">&quot;.tar.gz&quot;</span><span class="p">,</span> <span class="s2">&quot;.7z&quot;</span><span class="p">,</span> <span class="s2">&quot;.gz&quot;</span><span class="p">],</span>
+                <span class="s2">&quot;Backups&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;.bak&quot;</span><span class="p">,</span> <span class="s2">&quot;.backup&quot;</span><span class="p">]</span>
+            <span class="p">},</span>
+            <span class="s2">&quot;Disk Image&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;ISO &amp; Disk Images&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;.iso&quot;</span><span class="p">,</span> <span class="s2">&quot;.img&quot;</span><span class="p">]</span>
+            <span class="p">},</span>
+            <span class="s2">&quot;Presentations&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;PowerPoint Files&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;.pptx&quot;</span><span class="p">,</span> <span class="s2">&quot;.key&quot;</span><span class="p">,</span> <span class="s2">&quot;.ppt&quot;</span><span class="p">]</span>
+            <span class="p">},</span>
+            <span class="s2">&quot;Spreadsheets&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;Excel and CSV Files&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;.xls&quot;</span><span class="p">,</span> <span class="s2">&quot;.xlsx&quot;</span><span class="p">,</span> <span class="s2">&quot;.csv&quot;</span><span class="p">]</span>
+            <span class="p">},</span>
+            <span class="s2">&quot;Other&quot;</span><span class="p">:</span> <span class="p">{}</span>  <span class="c1"># For any files not recognized</span>
+        <span class="p">}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">categories</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">load_categories</span><span class="p">()</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Organizing folder: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">folder_to_watch</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">load_categories</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]]:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Load categories from the JSON file or initialize with default categories.</span>
+
+<span class="sd">        Example:</span>
+<span class="sd">            &gt;&gt;&gt; import json</span>
+<span class="sd">            &gt;&gt;&gt; from os import remove</span>
+<span class="sd">            &gt;&gt;&gt; # Create a temporary JSON file with categories</span>
+<span class="sd">            &gt;&gt;&gt; temp_json = &#39;temp_categories.json&#39;</span>
+<span class="sd">            &gt;&gt;&gt; with open(temp_json, &#39;w&#39;) as f:</span>
+<span class="sd">            ...     json.dump({&quot;TestCategory&quot;: {&quot;Subcategory&quot;: [&quot;.tmp&quot;]}}, f)</span>
+<span class="sd">            &gt;&gt;&gt; organizer = FileOrganizer(&quot;.&quot;, temp_json)</span>
+<span class="sd">            Categories loaded from JSON.</span>
+<span class="sd">            Added missing category: Documents &amp; Data</span>
+<span class="sd">            Added missing category: Development</span>
+<span class="sd">            Added missing category: Executables</span>
+<span class="sd">            Added missing category: Archives</span>
+<span class="sd">            Added missing category: Disk Image</span>
+<span class="sd">            Added missing category: Presentations</span>
+<span class="sd">            Added missing category: Spreadsheets</span>
+<span class="sd">            Added missing category: Other</span>
+<span class="sd">            Categories saved to JSON.</span>
+<span class="sd">            Organizing folder: .</span>
+<span class="sd">            &gt;&gt;&gt; categories = organizer.load_categories()</span>
+<span class="sd">            Categories loaded from JSON.</span>
+<span class="sd">            &gt;&gt;&gt; &quot;TestCategory&quot; in categories</span>
+<span class="sd">            True</span>
+<span class="sd">            &gt;&gt;&gt; remove(temp_json)</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            dict: The loaded or default categories.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">json_file</span><span class="p">):</span>
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">json_file</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+                <span class="n">categories</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Categories loaded from JSON.&quot;</span><span class="p">)</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Categories loaded: </span><span class="si">{</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">categories</span><span class="p">,</span><span class="w"> </span><span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+            <span class="c1"># Sync categories to ensure no extensions are missing</span>
+            <span class="n">categories</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">sync_categories</span><span class="p">(</span><span class="n">categories</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">categories</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">default_categories</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">save_categories</span><span class="p">(</span><span class="n">categories</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;No JSON file found, using default categories.&quot;</span><span class="p">)</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;No categories JSON found, using default categories.&quot;</span><span class="p">)</span>  <span class="c1"># Adjusted logging here</span>
+        <span class="k">return</span> <span class="n">categories</span>
+
+    <span class="k">def</span> <span class="nf">sync_categories</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">categories</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]])</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]]:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Ensures all default categories and extensions are present in the loaded categories.</span>
+
+<span class="sd">        Example:</span>
+<span class="sd">            &gt;&gt;&gt; organizer = FileOrganizer(&quot;.&quot;, &quot;non_existent_file.json&quot;)</span>
+<span class="sd">            Categories loaded from JSON.</span>
+<span class="sd">            Organizing folder: .</span>
+<span class="sd">            &gt;&gt;&gt; categories = {&quot;TestCategory&quot;: {&quot;Subcategory&quot;: [&quot;.tmp&quot;]}}</span>
+<span class="sd">            &gt;&gt;&gt; updated_categories = organizer.sync_categories(categories)</span>
+<span class="sd">            Added missing category: Documents &amp; Data</span>
+<span class="sd">            Added missing category: Development</span>
+<span class="sd">            Added missing category: Executables</span>
+<span class="sd">            Added missing category: Archives</span>
+<span class="sd">            Added missing category: Disk Image</span>
+<span class="sd">            Added missing category: Presentations</span>
+<span class="sd">            Added missing category: Spreadsheets</span>
+<span class="sd">            Added missing category: Other</span>
+<span class="sd">            Categories saved to JSON.</span>
+<span class="sd">            &gt;&gt;&gt; &quot;Documents &amp; Data&quot; in updated_categories</span>
+<span class="sd">            True</span>
+<span class="sd">            &gt;&gt;&gt; &quot;TestCategory&quot; in updated_categories</span>
+<span class="sd">            True</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            categories (dict): The loaded categories.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            dict: The updated categories with missing entries filled.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+        <span class="n">updated</span> <span class="o">=</span> <span class="kc">False</span>
+
+        <span class="k">for</span> <span class="n">category</span><span class="p">,</span> <span class="n">subcategories</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">default_categories</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">if</span> <span class="n">category</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">categories</span><span class="p">:</span>
+                <span class="n">categories</span><span class="p">[</span><span class="n">category</span><span class="p">]</span> <span class="o">=</span> <span class="n">subcategories</span>
+                <span class="n">updated</span> <span class="o">=</span> <span class="kc">True</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Added missing category: </span><span class="si">{</span><span class="n">category</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Added missing category: </span><span class="si">{</span><span class="n">category</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="c1"># Ensure categories[category] is a dictionary</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">categories</span><span class="p">[</span><span class="n">category</span><span class="p">],</span> <span class="nb">dict</span><span class="p">):</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Warning: </span><span class="si">{</span><span class="n">category</span><span class="si">}</span><span class="s2"> is not a dictionary, resetting to default.&quot;</span><span class="p">)</span>
+                    <span class="n">logging</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">category</span><span class="si">}</span><span class="s2"> is not a dictionary, resetting to default.&quot;</span><span class="p">)</span>
+                    <span class="n">categories</span><span class="p">[</span><span class="n">category</span><span class="p">]</span> <span class="o">=</span> <span class="n">subcategories</span>  <span class="c1"># Reset it to the default structure</span>
+                    <span class="n">updated</span> <span class="o">=</span> <span class="kc">True</span>
+
+                <span class="c1"># Now ensure the subcategories are in the correct format (dictionary with list of extensions)</span>
+                <span class="k">for</span> <span class="n">subcategory</span><span class="p">,</span> <span class="n">extensions</span> <span class="ow">in</span> <span class="n">subcategories</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+                    <span class="k">if</span> <span class="n">subcategory</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">categories</span><span class="p">[</span><span class="n">category</span><span class="p">]:</span>
+                        <span class="n">categories</span><span class="p">[</span><span class="n">category</span><span class="p">][</span><span class="n">subcategory</span><span class="p">]</span> <span class="o">=</span> <span class="n">extensions</span>
+                        <span class="n">updated</span> <span class="o">=</span> <span class="kc">True</span>
+                        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Added missing subcategory: </span><span class="si">{</span><span class="n">subcategory</span><span class="si">}</span><span class="s2"> to </span><span class="si">{</span><span class="n">category</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                        <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Added missing subcategory: </span><span class="si">{</span><span class="n">subcategory</span><span class="si">}</span><span class="s2"> to </span><span class="si">{</span><span class="n">category</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+                    <span class="c1"># Ensure that each subcategory is a list of extensions</span>
+                    <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">categories</span><span class="p">[</span><span class="n">category</span><span class="p">][</span><span class="n">subcategory</span><span class="p">],</span> <span class="nb">list</span><span class="p">):</span>
+                        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Warning: </span><span class="si">{</span><span class="n">subcategory</span><span class="si">}</span><span class="s2"> under </span><span class="si">{</span><span class="n">category</span><span class="si">}</span><span class="s2"> is not a list, resetting to default.&quot;</span><span class="p">)</span>
+                        <span class="n">logging</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">subcategory</span><span class="si">}</span><span class="s2"> under </span><span class="si">{</span><span class="n">category</span><span class="si">}</span><span class="s2"> is not a list, resetting to default.&quot;</span><span class="p">)</span>
+                        <span class="n">categories</span><span class="p">[</span><span class="n">category</span><span class="p">][</span><span class="n">subcategory</span><span class="p">]</span> <span class="o">=</span> <span class="n">extensions</span>  <span class="c1"># Reset to default extension list</span>
+
+        <span class="c1"># If updates were made, save the categories back to the JSON file</span>
+        <span class="k">if</span> <span class="n">updated</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">save_categories</span><span class="p">(</span><span class="n">categories</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">categories</span>
+
+    <span class="k">def</span> <span class="nf">save_categories</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">categories</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]]):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Save the updated categories to the JSON file.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            categories (dict): The categories to save.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">json_file</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+            <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">categories</span><span class="p">,</span> <span class="n">file</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Categories saved to JSON.&quot;</span><span class="p">)</span>
+        <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Categories saved to JSON.&quot;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">organise_downloads</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">file_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Organize downloaded file based on its extension and predefined structure.</span>
+
+<span class="sd">        Example:</span>
+<span class="sd">            &gt;&gt;&gt; import json</span>
+<span class="sd">            &gt;&gt;&gt; from os import remove, path</span>
+<span class="sd">            &gt;&gt;&gt; # Create a temporary JSON file with categories</span>
+<span class="sd">            &gt;&gt;&gt; temp_json = &#39;temp_categories.json&#39;</span>
+<span class="sd">            &gt;&gt;&gt; with open(temp_json, &#39;w&#39;) as f:</span>
+<span class="sd">            ...     json.dump({&quot;TestCategory&quot;: {&quot;Subcategory&quot;: [&quot;.tmp&quot;]}}, f)</span>
+<span class="sd">            &gt;&gt;&gt; organizer = FileOrganizer(&quot;.&quot;, temp_json)</span>
+<span class="sd">            Categories loaded from JSON.</span>
+<span class="sd">            Added missing category: Documents &amp; Data</span>
+<span class="sd">            Added missing category: Development</span>
+<span class="sd">            Added missing category: Executables</span>
+<span class="sd">            Added missing category: Archives</span>
+<span class="sd">            Added missing category: Disk Image</span>
+<span class="sd">            Added missing category: Presentations</span>
+<span class="sd">            Added missing category: Spreadsheets</span>
+<span class="sd">            Added missing category: Other</span>
+<span class="sd">            Categories saved to JSON.</span>
+<span class="sd">            Organizing folder: .</span>
+<span class="sd">            &gt;&gt;&gt; categories = organizer.load_categories()</span>
+<span class="sd">            Categories loaded from JSON.</span>
+<span class="sd">            &gt;&gt;&gt; &quot;TestCategory&quot; in categories</span>
+<span class="sd">            True</span>
+<span class="sd">            &gt;&gt;&gt; remove(temp_json)  # Cleanup step to remove the non-existent file</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            file_path (str): The path to the file to be organised.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">_</span><span class="p">,</span> <span class="n">file_extension</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">splitext</span><span class="p">(</span><span class="n">file_path</span><span class="p">)</span>
+        <span class="n">file_extension</span> <span class="o">=</span> <span class="n">file_extension</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+        <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;File extension: </span><span class="si">{</span><span class="n">file_extension</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+        <span class="c1"># Debugging: Print the file being processed</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Processing file: </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2"> with extension </span><span class="si">{</span><span class="n">file_extension</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Processing file: </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2"> with extension </span><span class="si">{</span><span class="n">file_extension</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+        <span class="c1"># Check if the file extension exists in any category</span>
+        <span class="n">category_found</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="k">for</span> <span class="n">category</span><span class="p">,</span> <span class="n">subcategories</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">categories</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">for</span> <span class="n">subcategory</span><span class="p">,</span> <span class="n">extensions</span> <span class="ow">in</span> <span class="n">subcategories</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+                <span class="k">if</span> <span class="n">file_extension</span> <span class="ow">in</span> <span class="n">extensions</span><span class="p">:</span>
+                    <span class="n">category_found</span> <span class="o">=</span> <span class="kc">True</span>
+                    <span class="c1"># Move file to the correct subfolder</span>
+                    <span class="n">category_path</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">folder_to_watch</span><span class="p">,</span> <span class="n">category</span><span class="p">,</span> <span class="n">subcategory</span><span class="p">)</span>
+                    <span class="k">if</span> <span class="ow">not</span> <span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">category_path</span><span class="p">):</span>
+                        <span class="n">makedirs</span><span class="p">(</span><span class="n">category_path</span><span class="p">)</span>
+                    <span class="n">new_path</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">category_path</span><span class="p">,</span> <span class="n">path</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">file_path</span><span class="p">))</span>
+                    <span class="k">try</span><span class="p">:</span>
+                        <span class="n">move</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">new_path</span><span class="p">)</span>
+                        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Moved </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2"> to </span><span class="si">{</span><span class="n">new_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                        <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Moved </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2"> to </span><span class="si">{</span><span class="n">new_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+                        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error moving file: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                        <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error moving file </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                    <span class="k">break</span>
+            <span class="k">if</span> <span class="n">category_found</span><span class="p">:</span>
+                <span class="k">break</span>
+
+        <span class="c1"># If no match is found, move to &quot;Other&quot;</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">category_found</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;New file type detected: </span><span class="si">{</span><span class="n">file_extension</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;New file type detected: </span><span class="si">{</span><span class="n">file_extension</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="n">new_category</span> <span class="o">=</span> <span class="s2">&quot;Other&quot;</span>
+            <span class="k">if</span> <span class="n">new_category</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">categories</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">categories</span><span class="p">[</span><span class="n">new_category</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+            <span class="k">if</span> <span class="n">file_extension</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">categories</span><span class="p">[</span><span class="s2">&quot;Other&quot;</span><span class="p">]:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">categories</span><span class="p">[</span><span class="n">new_category</span><span class="p">][</span><span class="n">file_extension</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+
+            <span class="bp">self</span><span class="o">.</span><span class="n">save_categories</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">categories</span><span class="p">)</span>
+            <span class="c1"># Move to the &quot;Other&quot; category</span>
+            <span class="n">other_path</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">folder_to_watch</span><span class="p">,</span> <span class="s2">&quot;Other&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">other_path</span><span class="p">):</span>
+                <span class="n">makedirs</span><span class="p">(</span><span class="n">other_path</span><span class="p">)</span>
+                <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Created directory: </span><span class="si">{</span><span class="n">category_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="n">new_path</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">other_path</span><span class="p">,</span> <span class="n">path</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">file_path</span><span class="p">))</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Moving </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2"> to </span><span class="si">{</span><span class="n">new_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                <span class="n">move</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">new_path</span><span class="p">)</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Moved </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2"> to </span><span class="si">{</span><span class="n">new_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Moved </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2"> to </span><span class="si">{</span><span class="n">new_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+                <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error moving file </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2"> to </span><span class="si">{</span><span class="n">new_path</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error moving file: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">organize_files_in_directory</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Organize all files in the directory based on their extensions.</span>
+
+<span class="sd">        Example:</span>
+<span class="sd">            &gt;&gt;&gt; from os import makedirs, remove</span>
+<span class="sd">            &gt;&gt;&gt; from shutil import rmtree</span>
+<span class="sd">            &gt;&gt;&gt; # Setup a test environment</span>
+<span class="sd">            &gt;&gt;&gt; test_folder = &quot;test_folder&quot;</span>
+<span class="sd">            &gt;&gt;&gt; makedirs(test_folder, exist_ok=True)</span>
+<span class="sd">            &gt;&gt;&gt; test_file_1 = path.join(test_folder, &quot;test1.pdf&quot;)</span>
+<span class="sd">            &gt;&gt;&gt; test_file_2 = path.join(test_folder, &quot;test2.csv&quot;)</span>
+<span class="sd">            &gt;&gt;&gt; with open(test_file_1, &quot;w&quot;) as f1, open(test_file_2, &quot;w&quot;) as f2:</span>
+<span class="sd">            ...     f1.write(&quot;Test 1 content.&quot;)</span>
+<span class="sd">            ...     f2.write(&quot;Test 2 content.&quot;)</span>
+<span class="sd">            15</span>
+<span class="sd">            15</span>
+<span class="sd">            &gt;&gt;&gt; organizer = FileOrganizer(test_folder, &quot;non_existent_file.json&quot;)</span>
+<span class="sd">            Categories loaded from JSON.</span>
+<span class="sd">            Organizing folder: test_folder</span>
+<span class="sd">            &gt;&gt;&gt; organizer.organize_files_in_directory()</span>
+<span class="sd">            Starting to organize files in test_folder</span>
+<span class="sd">            Processing file: test_folder\\test1.pdf with extension .pdf</span>
+<span class="sd">            Moved test_folder\\test1.pdf to test_folder\\Documents &amp; Data\\Documents\\test1.pdf</span>
+<span class="sd">            Processing file: test_folder\\test2.csv with extension .csv</span>
+<span class="sd">            Moved test_folder\\test2.csv to test_folder\\Documents &amp; Data\\Data (CSV, XML, JSON, etc.)\\test2.csv</span>
+<span class="sd">            &gt;&gt;&gt; path.exists(path.join(test_folder, &quot;Documents &amp; Data/Documents/test1.pdf&quot;))</span>
+<span class="sd">            True</span>
+<span class="sd">            &gt;&gt;&gt; path.exists(path.join(test_folder, &quot;Documents &amp; Data/Data (CSV, XML, JSON, etc.)/test2.csv&quot;))</span>
+<span class="sd">            True</span>
+<span class="sd">            &gt;&gt;&gt; rmtree(test_folder)</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Starting to organize files in </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">folder_to_watch</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">file_name</span> <span class="ow">in</span> <span class="n">listdir</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">folder_to_watch</span><span class="p">):</span>
+            <span class="n">file_path</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">folder_to_watch</span><span class="p">,</span> <span class="n">file_name</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">path</span><span class="o">.</span><span class="n">isfile</span><span class="p">(</span><span class="n">file_path</span><span class="p">):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">organise_downloads</span><span class="p">(</span><span class="n">file_path</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+              </details>
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-function">
+
+
+<h2 id="file_organizer.FileOrganizer.__init__" class="doc doc-heading">
+            <code class="highlight language-python"><span class="fm">__init__</span><span class="p">(</span><span class="n">folder_to_watch</span><span class="p">,</span> <span class="n">json_file</span><span class="p">)</span></code>
+
+</h2>
+
+
+    <div class="doc doc-contents ">
+
+        <p>Initializes the FileOrganizer instance.</p>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>folder_to_watch</code>
+            </td>
+            <td>
+                  <code>str</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>The folder to organize files.</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>json_file</code>
+            </td>
+            <td>
+                  <code>str</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Path to the JSON containing category information.</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+            <details class="quote">
+              <summary>Source code in <code>file_organizer.py</code></summary>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span>
+<span class="normal">43</span>
+<span class="normal">44</span>
+<span class="normal">45</span>
+<span class="normal">46</span>
+<span class="normal">47</span>
+<span class="normal">48</span>
+<span class="normal">49</span>
+<span class="normal">50</span>
+<span class="normal">51</span>
+<span class="normal">52</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">folder_to_watch</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">json_file</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Initializes the FileOrganizer instance.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        folder_to_watch (str): The folder to organize files.</span>
+<span class="sd">        json_file (str): Path to the JSON containing category information.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">folder_to_watch</span> <span class="o">=</span> <span class="n">folder_to_watch</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">json_file</span> <span class="o">=</span> <span class="n">json_file</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">default_categories</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s2">&quot;Documents &amp; Data&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;Documents&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;.docx&quot;</span><span class="p">,</span> <span class="s2">&quot;.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;.odt&quot;</span><span class="p">,</span> <span class="s2">&quot;.rtf&quot;</span><span class="p">,</span> <span class="s2">&quot;.html&quot;</span><span class="p">,</span> <span class="s2">&quot;.epub&quot;</span><span class="p">,</span> <span class="s2">&quot;.md&quot;</span><span class="p">,</span> <span class="s2">&quot;.tex&quot;</span><span class="p">,</span> <span class="s2">&quot;.bib&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;Data (CSV, XML, JSON, etc.)&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;.csv&quot;</span><span class="p">,</span> <span class="s2">&quot;.xml&quot;</span><span class="p">,</span> <span class="s2">&quot;.json&quot;</span><span class="p">,</span> <span class="s2">&quot;.yaml&quot;</span><span class="p">]</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;Development&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;Project&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;.py&quot;</span><span class="p">,</span> <span class="s2">&quot;.cpp&quot;</span><span class="p">,</span> <span class="s2">&quot;.java&quot;</span><span class="p">,</span> <span class="s2">&quot;.js&quot;</span><span class="p">,</span> <span class="s2">&quot;.html&quot;</span><span class="p">,</span> <span class="s2">&quot;.css&quot;</span><span class="p">,</span> <span class="s2">&quot;.rb&quot;</span><span class="p">,</span> <span class="s2">&quot;.go&quot;</span><span class="p">,</span> <span class="s2">&quot;.php&quot;</span><span class="p">]</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;Executables&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;Installers&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;.exe&quot;</span><span class="p">,</span> <span class="s2">&quot;.msi&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;Scripts&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;.bat&quot;</span><span class="p">,</span> <span class="s2">&quot;.sh&quot;</span><span class="p">]</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;Archives&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;Compressed Files&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;.zip&quot;</span><span class="p">,</span> <span class="s2">&quot;.rar&quot;</span><span class="p">,</span> <span class="s2">&quot;.tar&quot;</span><span class="p">,</span> <span class="s2">&quot;.tar.gz&quot;</span><span class="p">,</span> <span class="s2">&quot;.7z&quot;</span><span class="p">,</span> <span class="s2">&quot;.gz&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;Backups&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;.bak&quot;</span><span class="p">,</span> <span class="s2">&quot;.backup&quot;</span><span class="p">]</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;Disk Image&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;ISO &amp; Disk Images&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;.iso&quot;</span><span class="p">,</span> <span class="s2">&quot;.img&quot;</span><span class="p">]</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;Presentations&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;PowerPoint Files&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;.pptx&quot;</span><span class="p">,</span> <span class="s2">&quot;.key&quot;</span><span class="p">,</span> <span class="s2">&quot;.ppt&quot;</span><span class="p">]</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;Spreadsheets&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;Excel and CSV Files&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;.xls&quot;</span><span class="p">,</span> <span class="s2">&quot;.xlsx&quot;</span><span class="p">,</span> <span class="s2">&quot;.csv&quot;</span><span class="p">]</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;Other&quot;</span><span class="p">:</span> <span class="p">{}</span>  <span class="c1"># For any files not recognized</span>
+    <span class="p">}</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">categories</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">load_categories</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Organizing folder: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">folder_to_watch</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+            </details>
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h2 id="file_organizer.FileOrganizer.load_categories" class="doc doc-heading">
+            <code class="highlight language-python"><span class="n">load_categories</span><span class="p">()</span></code>
+
+</h2>
+
+
+    <div class="doc doc-contents ">
+
+        <p>Load categories from the JSON file or initialize with default categories.</p>
+
+
+<details class="example" open>
+  <summary>Example</summary>
+  <blockquote>
+<blockquote>
+<blockquote>
+<p>import json
+from os import remove</p>
+<h3 id="file_organizer.FileOrganizer.load_categories--create-a-temporary-json-file-with-categories">Create a temporary JSON file with categories</h3>
+<p>temp_json = 'temp_categories.json'
+with open(temp_json, 'w') as f:
+...     json.dump({"TestCategory": {"Subcategory": [".tmp"]}}, f)
+organizer = FileOrganizer(".", temp_json)
+Categories loaded from JSON.
+Added missing category: Documents &amp; Data
+Added missing category: Development
+Added missing category: Executables
+Added missing category: Archives
+Added missing category: Disk Image
+Added missing category: Presentations
+Added missing category: Spreadsheets
+Added missing category: Other
+Categories saved to JSON.
+Organizing folder: .
+categories = organizer.load_categories()
+Categories loaded from JSON.
+"TestCategory" in categories
+True
+remove(temp_json)</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</details>
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+<th>Name</th>          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+<td><code>dict</code></td>            <td>
+                  <code><span title="typing.Dict">Dict</span>[str, <span title="typing.List">List</span>[str]]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>The loaded or default categories.</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+            <details class="quote">
+              <summary>Source code in <code>file_organizer.py</code></summary>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">54</span>
+<span class="normal">55</span>
+<span class="normal">56</span>
+<span class="normal">57</span>
+<span class="normal">58</span>
+<span class="normal">59</span>
+<span class="normal">60</span>
+<span class="normal">61</span>
+<span class="normal">62</span>
+<span class="normal">63</span>
+<span class="normal">64</span>
+<span class="normal">65</span>
+<span class="normal">66</span>
+<span class="normal">67</span>
+<span class="normal">68</span>
+<span class="normal">69</span>
+<span class="normal">70</span>
+<span class="normal">71</span>
+<span class="normal">72</span>
+<span class="normal">73</span>
+<span class="normal">74</span>
+<span class="normal">75</span>
+<span class="normal">76</span>
+<span class="normal">77</span>
+<span class="normal">78</span>
+<span class="normal">79</span>
+<span class="normal">80</span>
+<span class="normal">81</span>
+<span class="normal">82</span>
+<span class="normal">83</span>
+<span class="normal">84</span>
+<span class="normal">85</span>
+<span class="normal">86</span>
+<span class="normal">87</span>
+<span class="normal">88</span>
+<span class="normal">89</span>
+<span class="normal">90</span>
+<span class="normal">91</span>
+<span class="normal">92</span>
+<span class="normal">93</span>
+<span class="normal">94</span>
+<span class="normal">95</span>
+<span class="normal">96</span>
+<span class="normal">97</span>
+<span class="normal">98</span>
+<span class="normal">99</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">load_categories</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]]:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Load categories from the JSON file or initialize with default categories.</span>
+
+<span class="sd">    Example:</span>
+<span class="sd">        &gt;&gt;&gt; import json</span>
+<span class="sd">        &gt;&gt;&gt; from os import remove</span>
+<span class="sd">        &gt;&gt;&gt; # Create a temporary JSON file with categories</span>
+<span class="sd">        &gt;&gt;&gt; temp_json = &#39;temp_categories.json&#39;</span>
+<span class="sd">        &gt;&gt;&gt; with open(temp_json, &#39;w&#39;) as f:</span>
+<span class="sd">        ...     json.dump({&quot;TestCategory&quot;: {&quot;Subcategory&quot;: [&quot;.tmp&quot;]}}, f)</span>
+<span class="sd">        &gt;&gt;&gt; organizer = FileOrganizer(&quot;.&quot;, temp_json)</span>
+<span class="sd">        Categories loaded from JSON.</span>
+<span class="sd">        Added missing category: Documents &amp; Data</span>
+<span class="sd">        Added missing category: Development</span>
+<span class="sd">        Added missing category: Executables</span>
+<span class="sd">        Added missing category: Archives</span>
+<span class="sd">        Added missing category: Disk Image</span>
+<span class="sd">        Added missing category: Presentations</span>
+<span class="sd">        Added missing category: Spreadsheets</span>
+<span class="sd">        Added missing category: Other</span>
+<span class="sd">        Categories saved to JSON.</span>
+<span class="sd">        Organizing folder: .</span>
+<span class="sd">        &gt;&gt;&gt; categories = organizer.load_categories()</span>
+<span class="sd">        Categories loaded from JSON.</span>
+<span class="sd">        &gt;&gt;&gt; &quot;TestCategory&quot; in categories</span>
+<span class="sd">        True</span>
+<span class="sd">        &gt;&gt;&gt; remove(temp_json)</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        dict: The loaded or default categories.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">json_file</span><span class="p">):</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">json_file</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+            <span class="n">categories</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Categories loaded from JSON.&quot;</span><span class="p">)</span>
+        <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Categories loaded: </span><span class="si">{</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">categories</span><span class="p">,</span><span class="w"> </span><span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+        <span class="c1"># Sync categories to ensure no extensions are missing</span>
+        <span class="n">categories</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">sync_categories</span><span class="p">(</span><span class="n">categories</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">categories</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">default_categories</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">save_categories</span><span class="p">(</span><span class="n">categories</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;No JSON file found, using default categories.&quot;</span><span class="p">)</span>
+        <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;No categories JSON found, using default categories.&quot;</span><span class="p">)</span>  <span class="c1"># Adjusted logging here</span>
+    <span class="k">return</span> <span class="n">categories</span>
+</code></pre></div></td></tr></table></div>
+            </details>
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h2 id="file_organizer.FileOrganizer.organise_downloads" class="doc doc-heading">
+            <code class="highlight language-python"><span class="n">organise_downloads</span><span class="p">(</span><span class="n">file_path</span><span class="p">)</span></code>
+
+</h2>
+
+
+    <div class="doc doc-contents ">
+
+        <p>Organize downloaded file based on its extension and predefined structure.</p>
+
+
+<details class="example" open>
+  <summary>Example</summary>
+  <blockquote>
+<blockquote>
+<blockquote>
+<p>import json
+from os import remove, path</p>
+<h3 id="file_organizer.FileOrganizer.organise_downloads--create-a-temporary-json-file-with-categories">Create a temporary JSON file with categories</h3>
+<p>temp_json = 'temp_categories.json'
+with open(temp_json, 'w') as f:
+...     json.dump({"TestCategory": {"Subcategory": [".tmp"]}}, f)
+organizer = FileOrganizer(".", temp_json)
+Categories loaded from JSON.
+Added missing category: Documents &amp; Data
+Added missing category: Development
+Added missing category: Executables
+Added missing category: Archives
+Added missing category: Disk Image
+Added missing category: Presentations
+Added missing category: Spreadsheets
+Added missing category: Other
+Categories saved to JSON.
+Organizing folder: .
+categories = organizer.load_categories()
+Categories loaded from JSON.
+"TestCategory" in categories
+True
+remove(temp_json)  # Cleanup step to remove the non-existent file</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</details>
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>file_path</code>
+            </td>
+            <td>
+                  <code>str</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>The path to the file to be organised.</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+            <details class="quote">
+              <summary>Source code in <code>file_organizer.py</code></summary>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">179</span>
+<span class="normal">180</span>
+<span class="normal">181</span>
+<span class="normal">182</span>
+<span class="normal">183</span>
+<span class="normal">184</span>
+<span class="normal">185</span>
+<span class="normal">186</span>
+<span class="normal">187</span>
+<span class="normal">188</span>
+<span class="normal">189</span>
+<span class="normal">190</span>
+<span class="normal">191</span>
+<span class="normal">192</span>
+<span class="normal">193</span>
+<span class="normal">194</span>
+<span class="normal">195</span>
+<span class="normal">196</span>
+<span class="normal">197</span>
+<span class="normal">198</span>
+<span class="normal">199</span>
+<span class="normal">200</span>
+<span class="normal">201</span>
+<span class="normal">202</span>
+<span class="normal">203</span>
+<span class="normal">204</span>
+<span class="normal">205</span>
+<span class="normal">206</span>
+<span class="normal">207</span>
+<span class="normal">208</span>
+<span class="normal">209</span>
+<span class="normal">210</span>
+<span class="normal">211</span>
+<span class="normal">212</span>
+<span class="normal">213</span>
+<span class="normal">214</span>
+<span class="normal">215</span>
+<span class="normal">216</span>
+<span class="normal">217</span>
+<span class="normal">218</span>
+<span class="normal">219</span>
+<span class="normal">220</span>
+<span class="normal">221</span>
+<span class="normal">222</span>
+<span class="normal">223</span>
+<span class="normal">224</span>
+<span class="normal">225</span>
+<span class="normal">226</span>
+<span class="normal">227</span>
+<span class="normal">228</span>
+<span class="normal">229</span>
+<span class="normal">230</span>
+<span class="normal">231</span>
+<span class="normal">232</span>
+<span class="normal">233</span>
+<span class="normal">234</span>
+<span class="normal">235</span>
+<span class="normal">236</span>
+<span class="normal">237</span>
+<span class="normal">238</span>
+<span class="normal">239</span>
+<span class="normal">240</span>
+<span class="normal">241</span>
+<span class="normal">242</span>
+<span class="normal">243</span>
+<span class="normal">244</span>
+<span class="normal">245</span>
+<span class="normal">246</span>
+<span class="normal">247</span>
+<span class="normal">248</span>
+<span class="normal">249</span>
+<span class="normal">250</span>
+<span class="normal">251</span>
+<span class="normal">252</span>
+<span class="normal">253</span>
+<span class="normal">254</span>
+<span class="normal">255</span>
+<span class="normal">256</span>
+<span class="normal">257</span>
+<span class="normal">258</span>
+<span class="normal">259</span>
+<span class="normal">260</span>
+<span class="normal">261</span>
+<span class="normal">262</span>
+<span class="normal">263</span>
+<span class="normal">264</span>
+<span class="normal">265</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">organise_downloads</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">file_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Organize downloaded file based on its extension and predefined structure.</span>
+
+<span class="sd">    Example:</span>
+<span class="sd">        &gt;&gt;&gt; import json</span>
+<span class="sd">        &gt;&gt;&gt; from os import remove, path</span>
+<span class="sd">        &gt;&gt;&gt; # Create a temporary JSON file with categories</span>
+<span class="sd">        &gt;&gt;&gt; temp_json = &#39;temp_categories.json&#39;</span>
+<span class="sd">        &gt;&gt;&gt; with open(temp_json, &#39;w&#39;) as f:</span>
+<span class="sd">        ...     json.dump({&quot;TestCategory&quot;: {&quot;Subcategory&quot;: [&quot;.tmp&quot;]}}, f)</span>
+<span class="sd">        &gt;&gt;&gt; organizer = FileOrganizer(&quot;.&quot;, temp_json)</span>
+<span class="sd">        Categories loaded from JSON.</span>
+<span class="sd">        Added missing category: Documents &amp; Data</span>
+<span class="sd">        Added missing category: Development</span>
+<span class="sd">        Added missing category: Executables</span>
+<span class="sd">        Added missing category: Archives</span>
+<span class="sd">        Added missing category: Disk Image</span>
+<span class="sd">        Added missing category: Presentations</span>
+<span class="sd">        Added missing category: Spreadsheets</span>
+<span class="sd">        Added missing category: Other</span>
+<span class="sd">        Categories saved to JSON.</span>
+<span class="sd">        Organizing folder: .</span>
+<span class="sd">        &gt;&gt;&gt; categories = organizer.load_categories()</span>
+<span class="sd">        Categories loaded from JSON.</span>
+<span class="sd">        &gt;&gt;&gt; &quot;TestCategory&quot; in categories</span>
+<span class="sd">        True</span>
+<span class="sd">        &gt;&gt;&gt; remove(temp_json)  # Cleanup step to remove the non-existent file</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        file_path (str): The path to the file to be organised.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">_</span><span class="p">,</span> <span class="n">file_extension</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">splitext</span><span class="p">(</span><span class="n">file_path</span><span class="p">)</span>
+    <span class="n">file_extension</span> <span class="o">=</span> <span class="n">file_extension</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+    <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;File extension: </span><span class="si">{</span><span class="n">file_extension</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+    <span class="c1"># Debugging: Print the file being processed</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Processing file: </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2"> with extension </span><span class="si">{</span><span class="n">file_extension</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Processing file: </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2"> with extension </span><span class="si">{</span><span class="n">file_extension</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+    <span class="c1"># Check if the file extension exists in any category</span>
+    <span class="n">category_found</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="k">for</span> <span class="n">category</span><span class="p">,</span> <span class="n">subcategories</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">categories</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="k">for</span> <span class="n">subcategory</span><span class="p">,</span> <span class="n">extensions</span> <span class="ow">in</span> <span class="n">subcategories</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">if</span> <span class="n">file_extension</span> <span class="ow">in</span> <span class="n">extensions</span><span class="p">:</span>
+                <span class="n">category_found</span> <span class="o">=</span> <span class="kc">True</span>
+                <span class="c1"># Move file to the correct subfolder</span>
+                <span class="n">category_path</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">folder_to_watch</span><span class="p">,</span> <span class="n">category</span><span class="p">,</span> <span class="n">subcategory</span><span class="p">)</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">category_path</span><span class="p">):</span>
+                    <span class="n">makedirs</span><span class="p">(</span><span class="n">category_path</span><span class="p">)</span>
+                <span class="n">new_path</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">category_path</span><span class="p">,</span> <span class="n">path</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">file_path</span><span class="p">))</span>
+                <span class="k">try</span><span class="p">:</span>
+                    <span class="n">move</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">new_path</span><span class="p">)</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Moved </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2"> to </span><span class="si">{</span><span class="n">new_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                    <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Moved </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2"> to </span><span class="si">{</span><span class="n">new_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error moving file: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                    <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error moving file </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                <span class="k">break</span>
+        <span class="k">if</span> <span class="n">category_found</span><span class="p">:</span>
+            <span class="k">break</span>
+
+    <span class="c1"># If no match is found, move to &quot;Other&quot;</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">category_found</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;New file type detected: </span><span class="si">{</span><span class="n">file_extension</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;New file type detected: </span><span class="si">{</span><span class="n">file_extension</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">new_category</span> <span class="o">=</span> <span class="s2">&quot;Other&quot;</span>
+        <span class="k">if</span> <span class="n">new_category</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">categories</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">categories</span><span class="p">[</span><span class="n">new_category</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">if</span> <span class="n">file_extension</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">categories</span><span class="p">[</span><span class="s2">&quot;Other&quot;</span><span class="p">]:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">categories</span><span class="p">[</span><span class="n">new_category</span><span class="p">][</span><span class="n">file_extension</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">save_categories</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">categories</span><span class="p">)</span>
+        <span class="c1"># Move to the &quot;Other&quot; category</span>
+        <span class="n">other_path</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">folder_to_watch</span><span class="p">,</span> <span class="s2">&quot;Other&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">other_path</span><span class="p">):</span>
+            <span class="n">makedirs</span><span class="p">(</span><span class="n">other_path</span><span class="p">)</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Created directory: </span><span class="si">{</span><span class="n">category_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">new_path</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">other_path</span><span class="p">,</span> <span class="n">path</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">file_path</span><span class="p">))</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Moving </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2"> to </span><span class="si">{</span><span class="n">new_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="n">move</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">new_path</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Moved </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2"> to </span><span class="si">{</span><span class="n">new_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Moved </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2"> to </span><span class="si">{</span><span class="n">new_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error moving file </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2"> to </span><span class="si">{</span><span class="n">new_path</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error moving file: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+            </details>
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h2 id="file_organizer.FileOrganizer.organize_files_in_directory" class="doc doc-heading">
+            <code class="highlight language-python"><span class="n">organize_files_in_directory</span><span class="p">()</span></code>
+
+</h2>
+
+
+    <div class="doc doc-contents ">
+
+        <p>Organize all files in the directory based on their extensions.</p>
+
+
+<details class="example" open>
+  <summary>Example</summary>
+  <blockquote>
+<blockquote>
+<blockquote>
+<p>from os import makedirs, remove
+from shutil import rmtree</p>
+<h3 id="file_organizer.FileOrganizer.organize_files_in_directory--setup-a-test-environment">Setup a test environment</h3>
+<p>test_folder = "test_folder"
+makedirs(test_folder, exist_ok=True)
+test_file_1 = path.join(test_folder, "test1.pdf")
+test_file_2 = path.join(test_folder, "test2.csv")
+with open(test_file_1, "w") as f1, open(test_file_2, "w") as f2:
+...     f1.write("Test 1 content.")
+...     f2.write("Test 2 content.")
+15
+15
+organizer = FileOrganizer(test_folder, "non_existent_file.json")
+Categories loaded from JSON.
+Organizing folder: test_folder
+organizer.organize_files_in_directory()
+Starting to organize files in test_folder
+Processing file: test_folder\test1.pdf with extension .pdf
+Moved test_folder\test1.pdf to test_folder\Documents &amp; Data\Documents\test1.pdf
+Processing file: test_folder\test2.csv with extension .csv
+Moved test_folder\test2.csv to test_folder\Documents &amp; Data\Data (CSV, XML, JSON, etc.)\test2.csv
+path.exists(path.join(test_folder, "Documents &amp; Data/Documents/test1.pdf"))
+True
+path.exists(path.join(test_folder, "Documents &amp; Data/Data (CSV, XML, JSON, etc.)/test2.csv"))
+True
+rmtree(test_folder)</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</details>
+            <details class="quote">
+              <summary>Source code in <code>file_organizer.py</code></summary>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">267</span>
+<span class="normal">268</span>
+<span class="normal">269</span>
+<span class="normal">270</span>
+<span class="normal">271</span>
+<span class="normal">272</span>
+<span class="normal">273</span>
+<span class="normal">274</span>
+<span class="normal">275</span>
+<span class="normal">276</span>
+<span class="normal">277</span>
+<span class="normal">278</span>
+<span class="normal">279</span>
+<span class="normal">280</span>
+<span class="normal">281</span>
+<span class="normal">282</span>
+<span class="normal">283</span>
+<span class="normal">284</span>
+<span class="normal">285</span>
+<span class="normal">286</span>
+<span class="normal">287</span>
+<span class="normal">288</span>
+<span class="normal">289</span>
+<span class="normal">290</span>
+<span class="normal">291</span>
+<span class="normal">292</span>
+<span class="normal">293</span>
+<span class="normal">294</span>
+<span class="normal">295</span>
+<span class="normal">296</span>
+<span class="normal">297</span>
+<span class="normal">298</span>
+<span class="normal">299</span>
+<span class="normal">300</span>
+<span class="normal">301</span>
+<span class="normal">302</span>
+<span class="normal">303</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">organize_files_in_directory</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Organize all files in the directory based on their extensions.</span>
+
+<span class="sd">    Example:</span>
+<span class="sd">        &gt;&gt;&gt; from os import makedirs, remove</span>
+<span class="sd">        &gt;&gt;&gt; from shutil import rmtree</span>
+<span class="sd">        &gt;&gt;&gt; # Setup a test environment</span>
+<span class="sd">        &gt;&gt;&gt; test_folder = &quot;test_folder&quot;</span>
+<span class="sd">        &gt;&gt;&gt; makedirs(test_folder, exist_ok=True)</span>
+<span class="sd">        &gt;&gt;&gt; test_file_1 = path.join(test_folder, &quot;test1.pdf&quot;)</span>
+<span class="sd">        &gt;&gt;&gt; test_file_2 = path.join(test_folder, &quot;test2.csv&quot;)</span>
+<span class="sd">        &gt;&gt;&gt; with open(test_file_1, &quot;w&quot;) as f1, open(test_file_2, &quot;w&quot;) as f2:</span>
+<span class="sd">        ...     f1.write(&quot;Test 1 content.&quot;)</span>
+<span class="sd">        ...     f2.write(&quot;Test 2 content.&quot;)</span>
+<span class="sd">        15</span>
+<span class="sd">        15</span>
+<span class="sd">        &gt;&gt;&gt; organizer = FileOrganizer(test_folder, &quot;non_existent_file.json&quot;)</span>
+<span class="sd">        Categories loaded from JSON.</span>
+<span class="sd">        Organizing folder: test_folder</span>
+<span class="sd">        &gt;&gt;&gt; organizer.organize_files_in_directory()</span>
+<span class="sd">        Starting to organize files in test_folder</span>
+<span class="sd">        Processing file: test_folder\\test1.pdf with extension .pdf</span>
+<span class="sd">        Moved test_folder\\test1.pdf to test_folder\\Documents &amp; Data\\Documents\\test1.pdf</span>
+<span class="sd">        Processing file: test_folder\\test2.csv with extension .csv</span>
+<span class="sd">        Moved test_folder\\test2.csv to test_folder\\Documents &amp; Data\\Data (CSV, XML, JSON, etc.)\\test2.csv</span>
+<span class="sd">        &gt;&gt;&gt; path.exists(path.join(test_folder, &quot;Documents &amp; Data/Documents/test1.pdf&quot;))</span>
+<span class="sd">        True</span>
+<span class="sd">        &gt;&gt;&gt; path.exists(path.join(test_folder, &quot;Documents &amp; Data/Data (CSV, XML, JSON, etc.)/test2.csv&quot;))</span>
+<span class="sd">        True</span>
+<span class="sd">        &gt;&gt;&gt; rmtree(test_folder)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Starting to organize files in </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">folder_to_watch</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">file_name</span> <span class="ow">in</span> <span class="n">listdir</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">folder_to_watch</span><span class="p">):</span>
+        <span class="n">file_path</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">folder_to_watch</span><span class="p">,</span> <span class="n">file_name</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">path</span><span class="o">.</span><span class="n">isfile</span><span class="p">(</span><span class="n">file_path</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">organise_downloads</span><span class="p">(</span><span class="n">file_path</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+            </details>
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h2 id="file_organizer.FileOrganizer.save_categories" class="doc doc-heading">
+            <code class="highlight language-python"><span class="n">save_categories</span><span class="p">(</span><span class="n">categories</span><span class="p">)</span></code>
+
+</h2>
+
+
+    <div class="doc doc-contents ">
+
+        <p>Save the updated categories to the JSON file.</p>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>categories</code>
+            </td>
+            <td>
+                  <code>dict</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>The categories to save.</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+            <details class="quote">
+              <summary>Source code in <code>file_organizer.py</code></summary>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">167</span>
+<span class="normal">168</span>
+<span class="normal">169</span>
+<span class="normal">170</span>
+<span class="normal">171</span>
+<span class="normal">172</span>
+<span class="normal">173</span>
+<span class="normal">174</span>
+<span class="normal">175</span>
+<span class="normal">176</span>
+<span class="normal">177</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">save_categories</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">categories</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]]):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Save the updated categories to the JSON file.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        categories (dict): The categories to save.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">json_file</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+        <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">categories</span><span class="p">,</span> <span class="n">file</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Categories saved to JSON.&quot;</span><span class="p">)</span>
+    <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Categories saved to JSON.&quot;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+            </details>
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h2 id="file_organizer.FileOrganizer.sync_categories" class="doc doc-heading">
+            <code class="highlight language-python"><span class="n">sync_categories</span><span class="p">(</span><span class="n">categories</span><span class="p">)</span></code>
+
+</h2>
+
+
+    <div class="doc doc-contents ">
+
+        <p>Ensures all default categories and extensions are present in the loaded categories.</p>
+
+
+<details class="example" open>
+  <summary>Example</summary>
+  <blockquote>
+<blockquote>
+<blockquote>
+<p>organizer = FileOrganizer(".", "non_existent_file.json")
+Categories loaded from JSON.
+Organizing folder: .
+categories = {"TestCategory": {"Subcategory": [".tmp"]}}
+updated_categories = organizer.sync_categories(categories)
+Added missing category: Documents &amp; Data
+Added missing category: Development
+Added missing category: Executables
+Added missing category: Archives
+Added missing category: Disk Image
+Added missing category: Presentations
+Added missing category: Spreadsheets
+Added missing category: Other
+Categories saved to JSON.
+"Documents &amp; Data" in updated_categories
+True
+"TestCategory" in updated_categories
+True</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</details>
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>categories</code>
+            </td>
+            <td>
+                  <code>dict</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>The loaded categories.</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+<th>Name</th>          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+<td><code>dict</code></td>            <td>
+                  <code><span title="typing.Dict">Dict</span>[str, <span title="typing.List">List</span>[str]]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>The updated categories with missing entries filled.</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+            <details class="quote">
+              <summary>Source code in <code>file_organizer.py</code></summary>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">101</span>
+<span class="normal">102</span>
+<span class="normal">103</span>
+<span class="normal">104</span>
+<span class="normal">105</span>
+<span class="normal">106</span>
+<span class="normal">107</span>
+<span class="normal">108</span>
+<span class="normal">109</span>
+<span class="normal">110</span>
+<span class="normal">111</span>
+<span class="normal">112</span>
+<span class="normal">113</span>
+<span class="normal">114</span>
+<span class="normal">115</span>
+<span class="normal">116</span>
+<span class="normal">117</span>
+<span class="normal">118</span>
+<span class="normal">119</span>
+<span class="normal">120</span>
+<span class="normal">121</span>
+<span class="normal">122</span>
+<span class="normal">123</span>
+<span class="normal">124</span>
+<span class="normal">125</span>
+<span class="normal">126</span>
+<span class="normal">127</span>
+<span class="normal">128</span>
+<span class="normal">129</span>
+<span class="normal">130</span>
+<span class="normal">131</span>
+<span class="normal">132</span>
+<span class="normal">133</span>
+<span class="normal">134</span>
+<span class="normal">135</span>
+<span class="normal">136</span>
+<span class="normal">137</span>
+<span class="normal">138</span>
+<span class="normal">139</span>
+<span class="normal">140</span>
+<span class="normal">141</span>
+<span class="normal">142</span>
+<span class="normal">143</span>
+<span class="normal">144</span>
+<span class="normal">145</span>
+<span class="normal">146</span>
+<span class="normal">147</span>
+<span class="normal">148</span>
+<span class="normal">149</span>
+<span class="normal">150</span>
+<span class="normal">151</span>
+<span class="normal">152</span>
+<span class="normal">153</span>
+<span class="normal">154</span>
+<span class="normal">155</span>
+<span class="normal">156</span>
+<span class="normal">157</span>
+<span class="normal">158</span>
+<span class="normal">159</span>
+<span class="normal">160</span>
+<span class="normal">161</span>
+<span class="normal">162</span>
+<span class="normal">163</span>
+<span class="normal">164</span>
+<span class="normal">165</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">sync_categories</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">categories</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]])</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]]:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Ensures all default categories and extensions are present in the loaded categories.</span>
+
+<span class="sd">    Example:</span>
+<span class="sd">        &gt;&gt;&gt; organizer = FileOrganizer(&quot;.&quot;, &quot;non_existent_file.json&quot;)</span>
+<span class="sd">        Categories loaded from JSON.</span>
+<span class="sd">        Organizing folder: .</span>
+<span class="sd">        &gt;&gt;&gt; categories = {&quot;TestCategory&quot;: {&quot;Subcategory&quot;: [&quot;.tmp&quot;]}}</span>
+<span class="sd">        &gt;&gt;&gt; updated_categories = organizer.sync_categories(categories)</span>
+<span class="sd">        Added missing category: Documents &amp; Data</span>
+<span class="sd">        Added missing category: Development</span>
+<span class="sd">        Added missing category: Executables</span>
+<span class="sd">        Added missing category: Archives</span>
+<span class="sd">        Added missing category: Disk Image</span>
+<span class="sd">        Added missing category: Presentations</span>
+<span class="sd">        Added missing category: Spreadsheets</span>
+<span class="sd">        Added missing category: Other</span>
+<span class="sd">        Categories saved to JSON.</span>
+<span class="sd">        &gt;&gt;&gt; &quot;Documents &amp; Data&quot; in updated_categories</span>
+<span class="sd">        True</span>
+<span class="sd">        &gt;&gt;&gt; &quot;TestCategory&quot; in updated_categories</span>
+<span class="sd">        True</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        categories (dict): The loaded categories.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        dict: The updated categories with missing entries filled.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+    <span class="n">updated</span> <span class="o">=</span> <span class="kc">False</span>
+
+    <span class="k">for</span> <span class="n">category</span><span class="p">,</span> <span class="n">subcategories</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">default_categories</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="k">if</span> <span class="n">category</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">categories</span><span class="p">:</span>
+            <span class="n">categories</span><span class="p">[</span><span class="n">category</span><span class="p">]</span> <span class="o">=</span> <span class="n">subcategories</span>
+            <span class="n">updated</span> <span class="o">=</span> <span class="kc">True</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Added missing category: </span><span class="si">{</span><span class="n">category</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Added missing category: </span><span class="si">{</span><span class="n">category</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="c1"># Ensure categories[category] is a dictionary</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">categories</span><span class="p">[</span><span class="n">category</span><span class="p">],</span> <span class="nb">dict</span><span class="p">):</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Warning: </span><span class="si">{</span><span class="n">category</span><span class="si">}</span><span class="s2"> is not a dictionary, resetting to default.&quot;</span><span class="p">)</span>
+                <span class="n">logging</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">category</span><span class="si">}</span><span class="s2"> is not a dictionary, resetting to default.&quot;</span><span class="p">)</span>
+                <span class="n">categories</span><span class="p">[</span><span class="n">category</span><span class="p">]</span> <span class="o">=</span> <span class="n">subcategories</span>  <span class="c1"># Reset it to the default structure</span>
+                <span class="n">updated</span> <span class="o">=</span> <span class="kc">True</span>
+
+            <span class="c1"># Now ensure the subcategories are in the correct format (dictionary with list of extensions)</span>
+            <span class="k">for</span> <span class="n">subcategory</span><span class="p">,</span> <span class="n">extensions</span> <span class="ow">in</span> <span class="n">subcategories</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+                <span class="k">if</span> <span class="n">subcategory</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">categories</span><span class="p">[</span><span class="n">category</span><span class="p">]:</span>
+                    <span class="n">categories</span><span class="p">[</span><span class="n">category</span><span class="p">][</span><span class="n">subcategory</span><span class="p">]</span> <span class="o">=</span> <span class="n">extensions</span>
+                    <span class="n">updated</span> <span class="o">=</span> <span class="kc">True</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Added missing subcategory: </span><span class="si">{</span><span class="n">subcategory</span><span class="si">}</span><span class="s2"> to </span><span class="si">{</span><span class="n">category</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                    <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Added missing subcategory: </span><span class="si">{</span><span class="n">subcategory</span><span class="si">}</span><span class="s2"> to </span><span class="si">{</span><span class="n">category</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+                <span class="c1"># Ensure that each subcategory is a list of extensions</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">categories</span><span class="p">[</span><span class="n">category</span><span class="p">][</span><span class="n">subcategory</span><span class="p">],</span> <span class="nb">list</span><span class="p">):</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Warning: </span><span class="si">{</span><span class="n">subcategory</span><span class="si">}</span><span class="s2"> under </span><span class="si">{</span><span class="n">category</span><span class="si">}</span><span class="s2"> is not a list, resetting to default.&quot;</span><span class="p">)</span>
+                    <span class="n">logging</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">subcategory</span><span class="si">}</span><span class="s2"> under </span><span class="si">{</span><span class="n">category</span><span class="si">}</span><span class="s2"> is not a list, resetting to default.&quot;</span><span class="p">)</span>
+                    <span class="n">categories</span><span class="p">[</span><span class="n">category</span><span class="p">][</span><span class="n">subcategory</span><span class="p">]</span> <span class="o">=</span> <span class="n">extensions</span>  <span class="c1"># Reset to default extension list</span>
+
+    <span class="c1"># If updates were made, save the categories back to the JSON file</span>
+    <span class="k">if</span> <span class="n">updated</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">save_categories</span><span class="p">(</span><span class="n">categories</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">categories</span>
+</code></pre></div></td></tr></table></div>
+            </details>
+    </div>
+
+</div>
+
+
+
+  </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1341 @@
+DEBUG:root:Categories loaded: {
+    "TestCategory": {
+        "Subcategory": [
+            ".tmp"
+        ]
+    }
+}
+DEBUG:root:Added missing category: Documents & Data
+DEBUG:root:Added missing category: Development
+DEBUG:root:Added missing category: Executables
+DEBUG:root:Added missing category: Archives
+DEBUG:root:Added missing category: Disk Image
+DEBUG:root:Added missing category: Presentations
+DEBUG:root:Added missing category: Spreadsheets
+DEBUG:root:Added missing category: Other
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Categories loaded: {
+    "TestCategory": {
+        "Subcategory": [
+            ".tmp"
+        ]
+    },
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data (CSV, XML, JSON, etc.)": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml"
+        ]
+    },
+    "Development": {
+        "Project": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ]
+    },
+    "Executables": {
+        "Installers": [
+            ".exe",
+            ".msi"
+        ],
+        "Scripts": [
+            ".bat",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".rar",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup"
+        ]
+    },
+    "Disk Image": {
+        "ISO & Disk Images": [
+            ".iso",
+            ".img"
+        ]
+    },
+    "Presentations": {
+        "PowerPoint Files": [
+            ".pptx",
+            ".key",
+            ".ppt"
+        ]
+    },
+    "Spreadsheets": {
+        "Excel and CSV Files": [
+            ".xls",
+            ".xlsx",
+            ".csv"
+        ]
+    },
+    "Other": {}
+}
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:No categories JSON found, using default categories.
+DEBUG:root:File extension: .pdf
+INFO:root:Processing file: test_folder\test_document.pdf with extension .pdf
+INFO:root:Moved test_folder\test_document.pdf to test_folder\Documents & Data\Documents\test_document.pdf
+DEBUG:root:Categories loaded: {
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data (CSV, XML, JSON, etc.)": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml"
+        ]
+    },
+    "Development": {
+        "Project": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ]
+    },
+    "Executables": {
+        "Installers": [
+            ".exe",
+            ".msi"
+        ],
+        "Scripts": [
+            ".bat",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".rar",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup"
+        ]
+    },
+    "Disk Image": {
+        "ISO & Disk Images": [
+            ".iso",
+            ".img"
+        ]
+    },
+    "Presentations": {
+        "PowerPoint Files": [
+            ".pptx",
+            ".key",
+            ".ppt"
+        ]
+    },
+    "Spreadsheets": {
+        "Excel and CSV Files": [
+            ".xls",
+            ".xlsx",
+            ".csv"
+        ]
+    },
+    "Other": {}
+}
+DEBUG:root:File extension: .pdf
+INFO:root:Processing file: test_folder\test1.pdf with extension .pdf
+INFO:root:Moved test_folder\test1.pdf to test_folder\Documents & Data\Documents\test1.pdf
+DEBUG:root:File extension: .csv
+INFO:root:Processing file: test_folder\test2.csv with extension .csv
+INFO:root:Moved test_folder\test2.csv to test_folder\Documents & Data\Data (CSV, XML, JSON, etc.)\test2.csv
+DEBUG:root:Categories loaded: {
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data (CSV, XML, JSON, etc.)": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml"
+        ]
+    },
+    "Development": {
+        "Project": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ]
+    },
+    "Executables": {
+        "Installers": [
+            ".exe",
+            ".msi"
+        ],
+        "Scripts": [
+            ".bat",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".rar",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup"
+        ]
+    },
+    "Disk Image": {
+        "ISO & Disk Images": [
+            ".iso",
+            ".img"
+        ]
+    },
+    "Presentations": {
+        "PowerPoint Files": [
+            ".pptx",
+            ".key",
+            ".ppt"
+        ]
+    },
+    "Spreadsheets": {
+        "Excel and CSV Files": [
+            ".xls",
+            ".xlsx",
+            ".csv"
+        ]
+    },
+    "Other": {}
+}
+DEBUG:root:Added missing category: Documents & Data
+DEBUG:root:Added missing category: Development
+DEBUG:root:Added missing category: Executables
+DEBUG:root:Added missing category: Archives
+DEBUG:root:Added missing category: Disk Image
+DEBUG:root:Added missing category: Presentations
+DEBUG:root:Added missing category: Spreadsheets
+DEBUG:root:Added missing category: Other
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Categories loaded: {
+    "TestCategory": {
+        "Subcategory": [
+            ".tmp"
+        ]
+    }
+}
+DEBUG:root:Added missing category: Documents & Data
+DEBUG:root:Added missing category: Development
+DEBUG:root:Added missing category: Executables
+DEBUG:root:Added missing category: Archives
+DEBUG:root:Added missing category: Disk Image
+DEBUG:root:Added missing category: Presentations
+DEBUG:root:Added missing category: Spreadsheets
+DEBUG:root:Added missing category: Other
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Categories loaded: {
+    "TestCategory": {
+        "Subcategory": [
+            ".tmp"
+        ]
+    },
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data (CSV, XML, JSON, etc.)": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml"
+        ]
+    },
+    "Development": {
+        "Project": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ]
+    },
+    "Executables": {
+        "Installers": [
+            ".exe",
+            ".msi"
+        ],
+        "Scripts": [
+            ".bat",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".rar",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup"
+        ]
+    },
+    "Disk Image": {
+        "ISO & Disk Images": [
+            ".iso",
+            ".img"
+        ]
+    },
+    "Presentations": {
+        "PowerPoint Files": [
+            ".pptx",
+            ".key",
+            ".ppt"
+        ]
+    },
+    "Spreadsheets": {
+        "Excel and CSV Files": [
+            ".xls",
+            ".xlsx",
+            ".csv"
+        ]
+    },
+    "Other": {}
+}
+DEBUG:root:Categories loaded: {
+    "TestCategory": {
+        "Subcategory": [
+            ".tmp"
+        ]
+    },
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data (CSV, XML, JSON, etc.)": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml"
+        ]
+    },
+    "Development": {
+        "Project": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ]
+    },
+    "Executables": {
+        "Installers": [
+            ".exe",
+            ".msi"
+        ],
+        "Scripts": [
+            ".bat",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".rar",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup"
+        ]
+    },
+    "Disk Image": {
+        "ISO & Disk Images": [
+            ".iso",
+            ".img"
+        ]
+    },
+    "Presentations": {
+        "PowerPoint Files": [
+            ".pptx",
+            ".key",
+            ".ppt"
+        ]
+    },
+    "Spreadsheets": {
+        "Excel and CSV Files": [
+            ".xls",
+            ".xlsx",
+            ".csv"
+        ]
+    },
+    "Other": {}
+}
+DEBUG:root:File extension: .pdf
+INFO:root:Processing file: test_folder\test_document.pdf with extension .pdf
+INFO:root:Moved test_folder\test_document.pdf to test_folder\Documents & Data\Documents\test_document.pdf
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:No categories JSON found, using default categories.
+DEBUG:root:File extension: .pdf
+INFO:root:Processing file: test_folder\test1.pdf with extension .pdf
+INFO:root:Moved test_folder\test1.pdf to test_folder\Documents & Data\Documents\test1.pdf
+DEBUG:root:File extension: .csv
+INFO:root:Processing file: test_folder\test2.csv with extension .csv
+INFO:root:Moved test_folder\test2.csv to test_folder\Documents & Data\Data (CSV, XML, JSON, etc.)\test2.csv
+DEBUG:root:Categories loaded: {
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data (CSV, XML, JSON, etc.)": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml"
+        ]
+    },
+    "Development": {
+        "Project": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ]
+    },
+    "Executables": {
+        "Installers": [
+            ".exe",
+            ".msi"
+        ],
+        "Scripts": [
+            ".bat",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".rar",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup"
+        ]
+    },
+    "Disk Image": {
+        "ISO & Disk Images": [
+            ".iso",
+            ".img"
+        ]
+    },
+    "Presentations": {
+        "PowerPoint Files": [
+            ".pptx",
+            ".key",
+            ".ppt"
+        ]
+    },
+    "Spreadsheets": {
+        "Excel and CSV Files": [
+            ".xls",
+            ".xlsx",
+            ".csv"
+        ]
+    },
+    "Other": {}
+}
+DEBUG:root:Added missing category: Documents & Data
+DEBUG:root:Added missing category: Development
+DEBUG:root:Added missing category: Executables
+DEBUG:root:Added missing category: Archives
+DEBUG:root:Added missing category: Disk Image
+DEBUG:root:Added missing category: Presentations
+DEBUG:root:Added missing category: Spreadsheets
+DEBUG:root:Added missing category: Other
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Categories loaded: {
+    "TestCategory": {
+        "Subcategory": [
+            ".tmp"
+        ]
+    }
+}
+DEBUG:root:Added missing category: Documents & Data
+DEBUG:root:Added missing category: Development
+DEBUG:root:Added missing category: Executables
+DEBUG:root:Added missing category: Archives
+DEBUG:root:Added missing category: Disk Image
+DEBUG:root:Added missing category: Presentations
+DEBUG:root:Added missing category: Spreadsheets
+DEBUG:root:Added missing category: Other
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Categories loaded: {
+    "TestCategory": {
+        "Subcategory": [
+            ".tmp"
+        ]
+    },
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data (CSV, XML, JSON, etc.)": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml"
+        ]
+    },
+    "Development": {
+        "Project": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ]
+    },
+    "Executables": {
+        "Installers": [
+            ".exe",
+            ".msi"
+        ],
+        "Scripts": [
+            ".bat",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".rar",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup"
+        ]
+    },
+    "Disk Image": {
+        "ISO & Disk Images": [
+            ".iso",
+            ".img"
+        ]
+    },
+    "Presentations": {
+        "PowerPoint Files": [
+            ".pptx",
+            ".key",
+            ".ppt"
+        ]
+    },
+    "Spreadsheets": {
+        "Excel and CSV Files": [
+            ".xls",
+            ".xlsx",
+            ".csv"
+        ]
+    },
+    "Other": {}
+}
+DEBUG:root:Categories loaded: {
+    "TestCategory": {
+        "Subcategory": [
+            ".tmp"
+        ]
+    }
+}
+DEBUG:root:Added missing category: Documents & Data
+DEBUG:root:Added missing category: Development
+DEBUG:root:Added missing category: Executables
+DEBUG:root:Added missing category: Archives
+DEBUG:root:Added missing category: Disk Image
+DEBUG:root:Added missing category: Presentations
+DEBUG:root:Added missing category: Spreadsheets
+DEBUG:root:Added missing category: Other
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Categories loaded: {
+    "TestCategory": {
+        "Subcategory": [
+            ".tmp"
+        ]
+    },
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data (CSV, XML, JSON, etc.)": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml"
+        ]
+    },
+    "Development": {
+        "Project": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ]
+    },
+    "Executables": {
+        "Installers": [
+            ".exe",
+            ".msi"
+        ],
+        "Scripts": [
+            ".bat",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".rar",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup"
+        ]
+    },
+    "Disk Image": {
+        "ISO & Disk Images": [
+            ".iso",
+            ".img"
+        ]
+    },
+    "Presentations": {
+        "PowerPoint Files": [
+            ".pptx",
+            ".key",
+            ".ppt"
+        ]
+    },
+    "Spreadsheets": {
+        "Excel and CSV Files": [
+            ".xls",
+            ".xlsx",
+            ".csv"
+        ]
+    },
+    "Other": {}
+}
+DEBUG:root:Categories loaded: {
+    "TestCategory": {
+        "Subcategory": [
+            ".tmp"
+        ]
+    },
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data (CSV, XML, JSON, etc.)": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml"
+        ]
+    },
+    "Development": {
+        "Project": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ]
+    },
+    "Executables": {
+        "Installers": [
+            ".exe",
+            ".msi"
+        ],
+        "Scripts": [
+            ".bat",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".rar",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup"
+        ]
+    },
+    "Disk Image": {
+        "ISO & Disk Images": [
+            ".iso",
+            ".img"
+        ]
+    },
+    "Presentations": {
+        "PowerPoint Files": [
+            ".pptx",
+            ".key",
+            ".ppt"
+        ]
+    },
+    "Spreadsheets": {
+        "Excel and CSV Files": [
+            ".xls",
+            ".xlsx",
+            ".csv"
+        ]
+    },
+    "Other": {}
+}
+DEBUG:root:File extension: .pdf
+INFO:root:Processing file: test_folder\test1.pdf with extension .pdf
+INFO:root:Moved test_folder\test1.pdf to test_folder\Documents & Data\Documents\test1.pdf
+DEBUG:root:File extension: .csv
+INFO:root:Processing file: test_folder\test2.csv with extension .csv
+INFO:root:Moved test_folder\test2.csv to test_folder\Documents & Data\Data (CSV, XML, JSON, etc.)\test2.csv
+DEBUG:root:Categories loaded: {
+    "TestCategory": {
+        "Subcategory": [
+            ".tmp"
+        ]
+    },
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data (CSV, XML, JSON, etc.)": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml"
+        ]
+    },
+    "Development": {
+        "Project": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ]
+    },
+    "Executables": {
+        "Installers": [
+            ".exe",
+            ".msi"
+        ],
+        "Scripts": [
+            ".bat",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".rar",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup"
+        ]
+    },
+    "Disk Image": {
+        "ISO & Disk Images": [
+            ".iso",
+            ".img"
+        ]
+    },
+    "Presentations": {
+        "PowerPoint Files": [
+            ".pptx",
+            ".key",
+            ".ppt"
+        ]
+    },
+    "Spreadsheets": {
+        "Excel and CSV Files": [
+            ".xls",
+            ".xlsx",
+            ".csv"
+        ]
+    },
+    "Other": {}
+}
+DEBUG:root:Added missing category: Documents & Data
+DEBUG:root:Added missing category: Development
+DEBUG:root:Added missing category: Executables
+DEBUG:root:Added missing category: Archives
+DEBUG:root:Added missing category: Disk Image
+DEBUG:root:Added missing category: Presentations
+DEBUG:root:Added missing category: Spreadsheets
+DEBUG:root:Added missing category: Other
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Categories loaded: {
+    "TestCategory": {
+        "Subcategory": [
+            ".tmp"
+        ]
+    }
+}
+DEBUG:root:Added missing category: Documents & Data
+DEBUG:root:Added missing category: Development
+DEBUG:root:Added missing category: Executables
+DEBUG:root:Added missing category: Archives
+DEBUG:root:Added missing category: Disk Image
+DEBUG:root:Added missing category: Presentations
+DEBUG:root:Added missing category: Spreadsheets
+DEBUG:root:Added missing category: Other
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Categories loaded: {
+    "TestCategory": {
+        "Subcategory": [
+            ".tmp"
+        ]
+    },
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data (CSV, XML, JSON, etc.)": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml"
+        ]
+    },
+    "Development": {
+        "Project": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ]
+    },
+    "Executables": {
+        "Installers": [
+            ".exe",
+            ".msi"
+        ],
+        "Scripts": [
+            ".bat",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".rar",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup"
+        ]
+    },
+    "Disk Image": {
+        "ISO & Disk Images": [
+            ".iso",
+            ".img"
+        ]
+    },
+    "Presentations": {
+        "PowerPoint Files": [
+            ".pptx",
+            ".key",
+            ".ppt"
+        ]
+    },
+    "Spreadsheets": {
+        "Excel and CSV Files": [
+            ".xls",
+            ".xlsx",
+            ".csv"
+        ]
+    },
+    "Other": {}
+}
+DEBUG:root:Categories loaded: {
+    "TestCategory": {
+        "Subcategory": [
+            ".tmp"
+        ]
+    }
+}
+DEBUG:root:Added missing category: Documents & Data
+DEBUG:root:Added missing category: Development
+DEBUG:root:Added missing category: Executables
+DEBUG:root:Added missing category: Archives
+DEBUG:root:Added missing category: Disk Image
+DEBUG:root:Added missing category: Presentations
+DEBUG:root:Added missing category: Spreadsheets
+DEBUG:root:Added missing category: Other
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Categories loaded: {
+    "TestCategory": {
+        "Subcategory": [
+            ".tmp"
+        ]
+    },
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data (CSV, XML, JSON, etc.)": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml"
+        ]
+    },
+    "Development": {
+        "Project": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ]
+    },
+    "Executables": {
+        "Installers": [
+            ".exe",
+            ".msi"
+        ],
+        "Scripts": [
+            ".bat",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".rar",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup"
+        ]
+    },
+    "Disk Image": {
+        "ISO & Disk Images": [
+            ".iso",
+            ".img"
+        ]
+    },
+    "Presentations": {
+        "PowerPoint Files": [
+            ".pptx",
+            ".key",
+            ".ppt"
+        ]
+    },
+    "Spreadsheets": {
+        "Excel and CSV Files": [
+            ".xls",
+            ".xlsx",
+            ".csv"
+        ]
+    },
+    "Other": {}
+}
+DEBUG:root:Categories loaded: {
+    "TestCategory": {
+        "Subcategory": [
+            ".tmp"
+        ]
+    },
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data (CSV, XML, JSON, etc.)": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml"
+        ]
+    },
+    "Development": {
+        "Project": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ]
+    },
+    "Executables": {
+        "Installers": [
+            ".exe",
+            ".msi"
+        ],
+        "Scripts": [
+            ".bat",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".rar",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup"
+        ]
+    },
+    "Disk Image": {
+        "ISO & Disk Images": [
+            ".iso",
+            ".img"
+        ]
+    },
+    "Presentations": {
+        "PowerPoint Files": [
+            ".pptx",
+            ".key",
+            ".ppt"
+        ]
+    },
+    "Spreadsheets": {
+        "Excel and CSV Files": [
+            ".xls",
+            ".xlsx",
+            ".csv"
+        ]
+    },
+    "Other": {}
+}
+DEBUG:root:File extension: .pdf
+INFO:root:Processing file: test_folder\test1.pdf with extension .pdf
+INFO:root:Moved test_folder\test1.pdf to test_folder\Documents & Data\Documents\test1.pdf
+DEBUG:root:File extension: .csv
+INFO:root:Processing file: test_folder\test2.csv with extension .csv
+INFO:root:Moved test_folder\test2.csv to test_folder\Documents & Data\Data (CSV, XML, JSON, etc.)\test2.csv
+DEBUG:root:Categories loaded: {
+    "TestCategory": {
+        "Subcategory": [
+            ".tmp"
+        ]
+    },
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data (CSV, XML, JSON, etc.)": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml"
+        ]
+    },
+    "Development": {
+        "Project": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ]
+    },
+    "Executables": {
+        "Installers": [
+            ".exe",
+            ".msi"
+        ],
+        "Scripts": [
+            ".bat",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".rar",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup"
+        ]
+    },
+    "Disk Image": {
+        "ISO & Disk Images": [
+            ".iso",
+            ".img"
+        ]
+    },
+    "Presentations": {
+        "PowerPoint Files": [
+            ".pptx",
+            ".key",
+            ".ppt"
+        ]
+    },
+    "Spreadsheets": {
+        "Excel and CSV Files": [
+            ".xls",
+            ".xlsx",
+            ".csv"
+        ]
+    },
+    "Other": {}
+}
+DEBUG:root:Added missing category: Documents & Data
+DEBUG:root:Added missing category: Development
+DEBUG:root:Added missing category: Executables
+DEBUG:root:Added missing category: Archives
+DEBUG:root:Added missing category: Disk Image
+DEBUG:root:Added missing category: Presentations
+DEBUG:root:Added missing category: Spreadsheets
+DEBUG:root:Added missing category: Other
+DEBUG:root:Categories saved to JSON.

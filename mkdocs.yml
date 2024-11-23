@@ -1,0 +1,20 @@
+site_name: FileOrganizer Documentation
+
+theme:
+  name: "material"
+
+plugins:
+  - mkdocstrings
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - Classes: classes.md
+  - Examples: examples.md
+  - Customizing: customising.md
+  - Logging: logging.md
+  - Error Handling: error_handling.md
+  - Testing: testing.md
+  - Contributing: contributing.md
+  - License: license.md

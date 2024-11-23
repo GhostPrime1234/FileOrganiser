@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "thread": "cpp",
+        "utility": "cpp",
+        "map": "cpp",
+        "chrono": "cpp"
+    }
+}
