@@ -1339,3 +1339,1245 @@ DEBUG:root:Added missing category: Presentations
 DEBUG:root:Added missing category: Spreadsheets
 DEBUG:root:Added missing category: Other
 DEBUG:root:Categories saved to JSON.
+DEBUG:root:Categories loaded: {
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data (CSV, XML, JSON, etc.)": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml"
+        ]
+    },
+    "Development": {
+        "Code": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ],
+        "Project": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ]
+    },
+    "Executables": {
+        "Installers": [
+            ".exe",
+            ".msi"
+        ],
+        "Scripts": [
+            ".bat",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".rar",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup"
+        ]
+    },
+    "Disk Image": {
+        "ISO & Disk Images": [
+            ".iso",
+            ".img"
+        ]
+    },
+    "Presentations": {
+        "PowerPoint Files": [
+            ".pptx",
+            ".key",
+            ".ppt"
+        ]
+    },
+    "Spreadsheets": {
+        "Excel and CSV Files": [
+            ".xls",
+            ".xlsx",
+            ".csv"
+        ]
+    },
+    "Other": {
+        ".lnk": []
+    }
+}
+DEBUG:root:File extension: .ini
+INFO:root:Processing file: C:\Users\Michael\Downloads\desktop.ini with extension .ini
+INFO:root:New file type detected: .ini
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\Michael\Downloads\desktop.ini to C:\Users\Michael\Downloads\Other\desktop.ini
+INFO:root:Moved C:\Users\Michael\Downloads\desktop.ini to C:\Users\Michael\Downloads\Other\desktop.ini
+DEBUG:root:File extension: .iso
+INFO:root:Processing file: C:\Users\Michael\Downloads\pop-os_22.04_amd64_intel_47.iso with extension .iso
+INFO:root:Moved C:\Users\Michael\Downloads\pop-os_22.04_amd64_intel_47.iso to C:\Users\Michael\Downloads\Disk Image\ISO & Disk Images\pop-os_22.04_amd64_intel_47.iso
+DEBUG:root:File extension: .iso
+INFO:root:Processing file: C:\Users\Michael\Downloads\pop-os_22.04_amd64_nvidia_47.iso with extension .iso
+INFO:root:Moved C:\Users\Michael\Downloads\pop-os_22.04_amd64_nvidia_47.iso to C:\Users\Michael\Downloads\Disk Image\ISO & Disk Images\pop-os_22.04_amd64_nvidia_47.iso
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:No categories JSON found, using default categories.
+DEBUG:root:File extension: .deb
+INFO:root:Processing file: /home/michael/Downloads/onedriver_0.14.1-1_amd64.deb with extension .deb
+INFO:root:New file type detected: .deb
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Categories loaded: {
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data (CSV, XML, JSON, etc.)": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml"
+        ]
+    },
+    "Development": {
+        "Project": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ]
+    },
+    "Executables": {
+        "Installers": [
+            ".exe",
+            ".msi"
+        ],
+        "Scripts": [
+            ".bat",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".rar",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup"
+        ]
+    },
+    "Disk Image": {
+        "ISO & Disk Images": [
+            ".iso",
+            ".img"
+        ]
+    },
+    "Presentations": {
+        "PowerPoint Files": [
+            ".pptx",
+            ".key",
+            ".ppt"
+        ]
+    },
+    "Spreadsheets": {
+        "Excel and CSV Files": [
+            ".xls",
+            ".xlsx",
+            ".csv"
+        ]
+    },
+    "Other": {
+        ".deb": []
+    }
+}
+DEBUG:root:File extension: .deb
+INFO:root:Processing file: /home/michael/Downloads/onedriver_0.14.1-1_amd64.deb with extension .deb
+INFO:root:New file type detected: .deb
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving /home/michael/Downloads/onedriver_0.14.1-1_amd64.deb to /home/michael/Downloads/Other/onedriver_0.14.1-1_amd64.deb
+INFO:root:Moved /home/michael/Downloads/onedriver_0.14.1-1_amd64.deb to /home/michael/Downloads/Other/onedriver_0.14.1-1_amd64.deb
+DEBUG:root:File extension: .sh
+INFO:root:Processing file: /home/michael/Downloads/Anaconda3-2024.10-1-Linux-x86_64.sh with extension .sh
+INFO:root:Moved /home/michael/Downloads/Anaconda3-2024.10-1-Linux-x86_64.sh to /home/michael/Downloads/Executables/Scripts/Anaconda3-2024.10-1-Linux-x86_64.sh
+DEBUG:root:File extension: .deb
+INFO:root:Processing file: /home/michael/Downloads/ticktick-6.0.10-amd64.deb with extension .deb
+INFO:root:New file type detected: .deb
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving /home/michael/Downloads/ticktick-6.0.10-amd64.deb to /home/michael/Downloads/Other/ticktick-6.0.10-amd64.deb
+INFO:root:Moved /home/michael/Downloads/ticktick-6.0.10-amd64.deb to /home/michael/Downloads/Other/ticktick-6.0.10-amd64.deb
+DEBUG:root:Categories loaded: {
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data (CSV, XML, JSON, etc.)": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml"
+        ]
+    },
+    "Development": {
+        "Project": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ]
+    },
+    "Executables": {
+        "Installers": [
+            ".exe",
+            ".msi"
+        ],
+        "Scripts": [
+            ".bat",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".rar",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup"
+        ]
+    },
+    "Disk Image": {
+        "ISO & Disk Images": [
+            ".iso",
+            ".img"
+        ]
+    },
+    "Presentations": {
+        "PowerPoint Files": [
+            ".pptx",
+            ".key",
+            ".ppt"
+        ]
+    },
+    "Spreadsheets": {
+        "Excel and CSV Files": [
+            ".xls",
+            ".xlsx",
+            ".csv"
+        ]
+    },
+    "Other": {
+        ".deb": []
+    }
+}
+DEBUG:root:Added missing subcategory: Data Files to Documents & Data
+DEBUG:root:Added missing subcategory: Source Code to Development
+DEBUG:root:Added missing subcategory: Build Files to Development
+DEBUG:root:Added missing subcategory: Scripts to Development
+DEBUG:root:Added missing subcategory: Binary Files to Executables
+DEBUG:root:Added missing subcategory: Disk Images to Disk Image
+DEBUG:root:Added missing category: Multimedia
+DEBUG:root:Added missing subcategory: Presentation Files to Presentations
+DEBUG:root:Added missing subcategory: Spreadsheet Files to Spreadsheets
+DEBUG:root:Added missing category: Logs & System
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:File extension: .deb
+INFO:root:Processing file: /home/michael/Downloads/onedriver_0.14.1-1_amd64.deb with extension .deb
+INFO:root:New file type detected: .deb
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Created directory: /home/michael/Downloads/Logs & System/Configuration Files
+DEBUG:root:Moving /home/michael/Downloads/onedriver_0.14.1-1_amd64.deb to /home/michael/Downloads/Other/onedriver_0.14.1-1_amd64.deb
+INFO:root:Moved /home/michael/Downloads/onedriver_0.14.1-1_amd64.deb to /home/michael/Downloads/Other/onedriver_0.14.1-1_amd64.deb
+DEBUG:root:File extension: .sh
+INFO:root:Processing file: /home/michael/Downloads/Anaconda3-2024.10-1-Linux-x86_64.sh with extension .sh
+INFO:root:Moved /home/michael/Downloads/Anaconda3-2024.10-1-Linux-x86_64.sh to /home/michael/Downloads/Development/Scripts/Anaconda3-2024.10-1-Linux-x86_64.sh
+DEBUG:root:File extension: .deb
+INFO:root:Processing file: /home/michael/Downloads/ticktick-6.0.10-amd64.deb with extension .deb
+INFO:root:New file type detected: .deb
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving /home/michael/Downloads/ticktick-6.0.10-amd64.deb to /home/michael/Downloads/Other/ticktick-6.0.10-amd64.deb
+INFO:root:Moved /home/michael/Downloads/ticktick-6.0.10-amd64.deb to /home/michael/Downloads/Other/ticktick-6.0.10-amd64.deb
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:No categories JSON found, using default categories.
+DEBUG:root:File extension: .deb
+INFO:root:Processing file: /home/michael/Downloads/onedriver_0.14.1-1_amd64.deb with extension .deb
+INFO:root:Moved /home/michael/Downloads/onedriver_0.14.1-1_amd64.deb to /home/michael/Downloads/Executables/Installers/onedriver_0.14.1-1_amd64.deb
+DEBUG:root:File extension: .sh
+INFO:root:Processing file: /home/michael/Downloads/Anaconda3-2024.10-1-Linux-x86_64.sh with extension .sh
+INFO:root:Moved /home/michael/Downloads/Anaconda3-2024.10-1-Linux-x86_64.sh to /home/michael/Downloads/Development/Scripts/Anaconda3-2024.10-1-Linux-x86_64.sh
+DEBUG:root:File extension: .deb
+INFO:root:Processing file: /home/michael/Downloads/ticktick-6.0.10-amd64.deb with extension .deb
+INFO:root:Moved /home/michael/Downloads/ticktick-6.0.10-amd64.deb to /home/michael/Downloads/Executables/Installers/ticktick-6.0.10-amd64.deb
+DEBUG:root:Categories loaded: {
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data (CSV, XML, JSON, etc.)": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml"
+        ]
+    },
+    "Development": {
+        "Code": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ],
+        "Project": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php"
+        ]
+    },
+    "Executables": {
+        "Installers": [
+            ".exe",
+            ".msi"
+        ],
+        "Scripts": [
+            ".bat",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".rar",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup"
+        ]
+    },
+    "Disk Image": {
+        "ISO & Disk Images": [
+            ".iso",
+            ".img"
+        ]
+    },
+    "Presentations": {
+        "PowerPoint Files": [
+            ".pptx",
+            ".key",
+            ".ppt"
+        ]
+    },
+    "Spreadsheets": {
+        "Excel and CSV Files": [
+            ".xls",
+            ".xlsx",
+            ".csv"
+        ]
+    },
+    "Other": {
+        ".lnk": [],
+        ".ini": []
+    }
+}
+DEBUG:root:Added missing subcategory: Data Files to Documents & Data
+DEBUG:root:Added missing subcategory: Source Code to Development
+DEBUG:root:Added missing subcategory: Build Files to Development
+DEBUG:root:Added missing subcategory: Scripts to Development
+DEBUG:root:Added missing subcategory: Binary Files to Executables
+DEBUG:root:Added missing subcategory: Disk Images to Disk Image
+DEBUG:root:Added missing category: Multimedia
+DEBUG:root:Added missing subcategory: Presentation Files to Presentations
+DEBUG:root:Added missing subcategory: Spreadsheet Files to Spreadsheets
+DEBUG:root:Added missing category: Logs & System
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:File extension: .iso
+INFO:root:Processing file: C:\Users\Michael\Downloads\debian-12.8.0-amd64-netinst.iso with extension .iso
+INFO:root:Moved C:\Users\Michael\Downloads\debian-12.8.0-amd64-netinst.iso to C:\Users\Michael\Downloads\Disk Image\ISO & Disk Images\debian-12.8.0-amd64-netinst.iso
+DEBUG:root:File extension: .iso
+INFO:root:Processing file: C:\Users\Michael\Downloads\Fedora-KDE-Live-x86_64-41-1.4.iso with extension .iso
+INFO:root:Moved C:\Users\Michael\Downloads\Fedora-KDE-Live-x86_64-41-1.4.iso to C:\Users\Michael\Downloads\Disk Image\ISO & Disk Images\Fedora-KDE-Live-x86_64-41-1.4.iso
+DEBUG:root:File extension: .iso
+INFO:root:Processing file: C:\Users\Michael\Downloads\kubuntu-24.04.1-desktop-amd64.iso with extension .iso
+INFO:root:Moved C:\Users\Michael\Downloads\kubuntu-24.04.1-desktop-amd64.iso to C:\Users\Michael\Downloads\Disk Image\ISO & Disk Images\kubuntu-24.04.1-desktop-amd64.iso
+DEBUG:root:File extension: .iso
+INFO:root:Processing file: C:\Users\Michael\Downloads\manjaro-kde-24.1.2-241104-linux610.iso with extension .iso
+INFO:root:Moved C:\Users\Michael\Downloads\manjaro-kde-24.1.2-241104-linux610.iso to C:\Users\Michael\Downloads\Disk Image\ISO & Disk Images\manjaro-kde-24.1.2-241104-linux610.iso
+DEBUG:root:File extension: .iso
+INFO:root:Processing file: C:\Users\Michael\Downloads\manjaro-xfce-24.1.2-241104-linux610.iso with extension .iso
+INFO:root:Moved C:\Users\Michael\Downloads\manjaro-xfce-24.1.2-241104-linux610.iso to C:\Users\Michael\Downloads\Disk Image\ISO & Disk Images\manjaro-xfce-24.1.2-241104-linux610.iso
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:No categories JSON found, using default categories.
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Anaconda3-2024.10-1-Windows-x86_64.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Created directory: C:\Users\micbm\Downloads\Logs & System\Configuration Files
+DEBUG:root:Moving C:\Users\micbm\Downloads\Anaconda3-2024.10-1-Windows-x86_64.exe to C:\Users\micbm\Downloads\Other\Anaconda3-2024.10-1-Windows-x86_64.exe
+INFO:root:Moved C:\Users\micbm\Downloads\Anaconda3-2024.10-1-Windows-x86_64.exe to C:\Users\micbm\Downloads\Other\Anaconda3-2024.10-1-Windows-x86_64.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\ChromeSetup.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\ChromeSetup.exe to C:\Users\micbm\Downloads\Other\ChromeSetup.exe
+INFO:root:Moved C:\Users\micbm\Downloads\ChromeSetup.exe to C:\Users\micbm\Downloads\Other\ChromeSetup.exe
+DEBUG:root:File extension: .ini
+INFO:root:Processing file: C:\Users\micbm\Downloads\desktop.ini with extension .ini
+INFO:root:Moved C:\Users\micbm\Downloads\desktop.ini to C:\Users\micbm\Downloads\Documents & Data\Data Files\desktop.ini
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\eset_smart_security_premium_live_installer.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\eset_smart_security_premium_live_installer.exe to C:\Users\micbm\Downloads\Other\eset_smart_security_premium_live_installer.exe
+INFO:root:Moved C:\Users\micbm\Downloads\eset_smart_security_premium_live_installer.exe to C:\Users\micbm\Downloads\Other\eset_smart_security_premium_live_installer.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Git-2.47.1-64-bit.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\Git-2.47.1-64-bit.exe to C:\Users\micbm\Downloads\Other\Git-2.47.1-64-bit.exe
+INFO:root:Moved C:\Users\micbm\Downloads\Git-2.47.1-64-bit.exe to C:\Users\micbm\Downloads\Other\Git-2.47.1-64-bit.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\GitHubDesktopSetup-x64.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\GitHubDesktopSetup-x64.exe to C:\Users\micbm\Downloads\Other\GitHubDesktopSetup-x64.exe
+INFO:root:Moved C:\Users\micbm\Downloads\GitHubDesktopSetup-x64.exe to C:\Users\micbm\Downloads\Other\GitHubDesktopSetup-x64.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\hwmonitor_1.55.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\hwmonitor_1.55.exe to C:\Users\micbm\Downloads\Other\hwmonitor_1.55.exe
+INFO:root:Moved C:\Users\micbm\Downloads\hwmonitor_1.55.exe to C:\Users\micbm\Downloads\Other\hwmonitor_1.55.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\jetbrains-toolbox-2.5.2.35332.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\jetbrains-toolbox-2.5.2.35332.exe to C:\Users\micbm\Downloads\Other\jetbrains-toolbox-2.5.2.35332.exe
+INFO:root:Moved C:\Users\micbm\Downloads\jetbrains-toolbox-2.5.2.35332.exe to C:\Users\micbm\Downloads\Other\jetbrains-toolbox-2.5.2.35332.exe
+DEBUG:root:File extension: .7z
+INFO:root:Processing file: C:\Users\micbm\Downloads\LenovoAINowAIGC_Row_LLM_Preload_V2.7z with extension .7z
+INFO:root:Moved C:\Users\micbm\Downloads\LenovoAINowAIGC_Row_LLM_Preload_V2.7z to C:\Users\micbm\Downloads\Archives\Compressed Files\LenovoAINowAIGC_Row_LLM_Preload_V2.7z
+DEBUG:root:File extension: .7z
+INFO:root:Processing file: C:\Users\micbm\Downloads\LenovoAINow_PFM_V20241017.7z with extension .7z
+INFO:root:Moved C:\Users\micbm\Downloads\LenovoAINow_PFM_V20241017.7z to C:\Users\micbm\Downloads\Archives\Compressed Files\LenovoAINow_PFM_V20241017.7z
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\LenovoAINow_Release_V1022_Once_PFM20241017_v1022b.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\LenovoAINow_Release_V1022_Once_PFM20241017_v1022b.exe to C:\Users\micbm\Downloads\Other\LenovoAINow_Release_V1022_Once_PFM20241017_v1022b.exe
+INFO:root:Moved C:\Users\micbm\Downloads\LenovoAINow_Release_V1022_Once_PFM20241017_v1022b.exe to C:\Users\micbm\Downloads\Other\LenovoAINow_Release_V1022_Once_PFM20241017_v1022b.exe
+DEBUG:root:File extension: .7z
+INFO:root:Processing file: C:\Users\micbm\Downloads\LenovoAINow_Tools.7z with extension .7z
+INFO:root:Moved C:\Users\micbm\Downloads\LenovoAINow_Tools.7z to C:\Users\micbm\Downloads\Archives\Compressed Files\LenovoAINow_Tools.7z
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Lenovo_AI_Now_installer.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\Lenovo_AI_Now_installer.exe to C:\Users\micbm\Downloads\Other\Lenovo_AI_Now_installer.exe
+INFO:root:Moved C:\Users\micbm\Downloads\Lenovo_AI_Now_installer.exe to C:\Users\micbm\Downloads\Other\Lenovo_AI_Now_installer.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\LSBSetup.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\LSBSetup.exe to C:\Users\micbm\Downloads\Other\LSBSetup.exe
+INFO:root:Moved C:\Users\micbm\Downloads\LSBSetup.exe to C:\Users\micbm\Downloads\Other\LSBSetup.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\msys2-x86_64-20241116.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\msys2-x86_64-20241116.exe to C:\Users\micbm\Downloads\Other\msys2-x86_64-20241116.exe
+INFO:root:Moved C:\Users\micbm\Downloads\msys2-x86_64-20241116.exe to C:\Users\micbm\Downloads\Other\msys2-x86_64-20241116.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Ninite Brave Discord OneDrive Zoom Installer.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\Ninite Brave Discord OneDrive Zoom Installer.exe to C:\Users\micbm\Downloads\Other\Ninite Brave Discord OneDrive Zoom Installer.exe
+INFO:root:Moved C:\Users\micbm\Downloads\Ninite Brave Discord OneDrive Zoom Installer.exe to C:\Users\micbm\Downloads\Other\Ninite Brave Discord OneDrive Zoom Installer.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Notion Setup 4.0.0.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\Notion Setup 4.0.0.exe to C:\Users\micbm\Downloads\Other\Notion Setup 4.0.0.exe
+INFO:root:Moved C:\Users\micbm\Downloads\Notion Setup 4.0.0.exe to C:\Users\micbm\Downloads\Other\Notion Setup 4.0.0.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Obsidian-1.7.7.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\Obsidian-1.7.7.exe to C:\Users\micbm\Downloads\Other\Obsidian-1.7.7.exe
+INFO:root:Moved C:\Users\micbm\Downloads\Obsidian-1.7.7.exe to C:\Users\micbm\Downloads\Other\Obsidian-1.7.7.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\OfficeSetup.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\OfficeSetup.exe to C:\Users\micbm\Downloads\Other\OfficeSetup.exe
+INFO:root:Moved C:\Users\micbm\Downloads\OfficeSetup.exe to C:\Users\micbm\Downloads\Other\OfficeSetup.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Reader_en_install.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\Reader_en_install.exe to C:\Users\micbm\Downloads\Other\Reader_en_install.exe
+INFO:root:Moved C:\Users\micbm\Downloads\Reader_en_install.exe to C:\Users\micbm\Downloads\Other\Reader_en_install.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\SteamSetup.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\SteamSetup.exe to C:\Users\micbm\Downloads\Other\SteamSetup.exe
+INFO:root:Moved C:\Users\micbm\Downloads\SteamSetup.exe to C:\Users\micbm\Downloads\Other\SteamSetup.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\tick_win_setup_release_x64_6120.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\tick_win_setup_release_x64_6120.exe to C:\Users\micbm\Downloads\Other\tick_win_setup_release_x64_6120.exe
+INFO:root:Moved C:\Users\micbm\Downloads\tick_win_setup_release_x64_6120.exe to C:\Users\micbm\Downloads\Other\tick_win_setup_release_x64_6120.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\VC_redist.x64.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\VC_redist.x64.exe to C:\Users\micbm\Downloads\Other\VC_redist.x64.exe
+INFO:root:Moved C:\Users\micbm\Downloads\VC_redist.x64.exe to C:\Users\micbm\Downloads\Other\VC_redist.x64.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\VirtualBox-7.1.4-165100-Win.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\VirtualBox-7.1.4-165100-Win.exe to C:\Users\micbm\Downloads\Other\VirtualBox-7.1.4-165100-Win.exe
+INFO:root:Moved C:\Users\micbm\Downloads\VirtualBox-7.1.4-165100-Win.exe to C:\Users\micbm\Downloads\Other\VirtualBox-7.1.4-165100-Win.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\VSCodeUserSetup-x64-1.95.3.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\VSCodeUserSetup-x64-1.95.3.exe to C:\Users\micbm\Downloads\Other\VSCodeUserSetup-x64-1.95.3.exe
+INFO:root:Moved C:\Users\micbm\Downloads\VSCodeUserSetup-x64-1.95.3.exe to C:\Users\micbm\Downloads\Other\VSCodeUserSetup-x64-1.95.3.exe
+DEBUG:root:File extension: .pdf
+INFO:root:Processing file: C:\Users\micbm\Downloads\week1_overview_Aut_2022.pdf with extension .pdf
+INFO:root:Moved C:\Users\micbm\Downloads\week1_overview_Aut_2022.pdf to C:\Users\micbm\Downloads\Documents & Data\Documents\week1_overview_Aut_2022.pdf
+DEBUG:root:Categories loaded: {
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data Files": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml",
+            ".yml",
+            ".ini",
+            ".conf",
+            ".log"
+        ]
+    },
+    "Development": {
+        "Source Code": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php",
+            ".c",
+            ".h"
+        ],
+        "Build Files": [
+            ".make",
+            ".cmake",
+            ".gradle"
+        ],
+        "Scripts": [
+            ".sh",
+            ".bash",
+            ".zsh",
+            ".pl",
+            ".lua",
+            ".awk"
+        ]
+    },
+    "Executables": {
+        "Binary Files": [
+            ".bin",
+            ".run",
+            ".out",
+            ".appimage"
+        ],
+        "Scripts": [
+            ".bash",
+            ".zsh"
+        ],
+        "Installers": [
+            ".deb",
+            ".rpm",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz",
+            ".bz2",
+            ".xz",
+            ".tgz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup",
+            ".old"
+        ]
+    },
+    "Disk Image": {
+        "Disk Images": [
+            ".iso",
+            ".img",
+            ".vmdk",
+            ".qcow2"
+        ]
+    },
+    "Multimedia": {
+        "Audio": [
+            ".mp3",
+            ".ogg",
+            ".wav",
+            ".flac",
+            ".m4a"
+        ],
+        "Video": [
+            ".mp4",
+            ".mkv",
+            ".webm",
+            ".avi",
+            ".mov",
+            ".wmv"
+        ],
+        "Images": [
+            ".jpg",
+            ".jpeg",
+            ".png",
+            ".gif",
+            ".bmp",
+            ".svg",
+            ".tiff",
+            ".raw",
+            ".xcf"
+        ]
+    },
+    "Presentations": {
+        "Presentation Files": [
+            ".pptx",
+            ".key",
+            ".ppt",
+            ".odp"
+        ]
+    },
+    "Spreadsheets": {
+        "Spreadsheet Files": [
+            ".xls",
+            ".xlsx",
+            ".ods",
+            ".csv"
+        ]
+    },
+    "Logs & System": {
+        "System Logs": [
+            ".log",
+            ".dmesg"
+        ],
+        "Configuration Files": [
+            ".conf",
+            ".ini"
+        ]
+    },
+    "Other": {
+        ".exe": []
+    }
+}
+DEBUG:root:Categories loaded: {
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data Files": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml",
+            ".yml",
+            ".ini",
+            ".conf",
+            ".log"
+        ]
+    },
+    "Development": {
+        "Source Code": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php",
+            ".c",
+            ".h"
+        ],
+        "Build Files": [
+            ".make",
+            ".cmake",
+            ".gradle"
+        ],
+        "Scripts": [
+            ".sh",
+            ".bash",
+            ".zsh",
+            ".pl",
+            ".lua",
+            ".awk"
+        ]
+    },
+    "Executables": {
+        "Binary Files": [
+            ".bin",
+            ".run",
+            ".out",
+            ".appimage"
+        ],
+        "Scripts": [
+            ".bash",
+            ".zsh"
+        ],
+        "Installers": [
+            ".deb",
+            ".rpm",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz",
+            ".bz2",
+            ".xz",
+            ".tgz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup",
+            ".old"
+        ]
+    },
+    "Disk Image": {
+        "Disk Images": [
+            ".iso",
+            ".img",
+            ".vmdk",
+            ".qcow2"
+        ]
+    },
+    "Multimedia": {
+        "Audio": [
+            ".mp3",
+            ".ogg",
+            ".wav",
+            ".flac",
+            ".m4a"
+        ],
+        "Video": [
+            ".mp4",
+            ".mkv",
+            ".webm",
+            ".avi",
+            ".mov",
+            ".wmv"
+        ],
+        "Images": [
+            ".jpg",
+            ".jpeg",
+            ".png",
+            ".gif",
+            ".bmp",
+            ".svg",
+            ".tiff",
+            ".raw",
+            ".xcf"
+        ]
+    },
+    "Presentations": {
+        "Presentation Files": [
+            ".pptx",
+            ".key",
+            ".ppt",
+            ".odp"
+        ]
+    },
+    "Spreadsheets": {
+        "Spreadsheet Files": [
+            ".xls",
+            ".xlsx",
+            ".ods",
+            ".csv"
+        ]
+    },
+    "Logs & System": {
+        "System Logs": [
+            ".log",
+            ".dmesg"
+        ],
+        "Configuration Files": [
+            ".conf",
+            ".ini"
+        ]
+    },
+    "Other": {
+        ".exe": []
+    }
+}
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Anaconda3-2024.10-1-Windows-x86_64.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\Anaconda3-2024.10-1-Windows-x86_64.exe to C:\Users\micbm\Downloads\Other\Anaconda3-2024.10-1-Windows-x86_64.exe
+INFO:root:Moved C:\Users\micbm\Downloads\Anaconda3-2024.10-1-Windows-x86_64.exe to C:\Users\micbm\Downloads\Other\Anaconda3-2024.10-1-Windows-x86_64.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\ChromeSetup.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\ChromeSetup.exe to C:\Users\micbm\Downloads\Other\ChromeSetup.exe
+INFO:root:Moved C:\Users\micbm\Downloads\ChromeSetup.exe to C:\Users\micbm\Downloads\Other\ChromeSetup.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\eset_smart_security_premium_live_installer.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\eset_smart_security_premium_live_installer.exe to C:\Users\micbm\Downloads\Other\eset_smart_security_premium_live_installer.exe
+INFO:root:Moved C:\Users\micbm\Downloads\eset_smart_security_premium_live_installer.exe to C:\Users\micbm\Downloads\Other\eset_smart_security_premium_live_installer.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Git-2.47.1-64-bit.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\Git-2.47.1-64-bit.exe to C:\Users\micbm\Downloads\Other\Git-2.47.1-64-bit.exe
+INFO:root:Moved C:\Users\micbm\Downloads\Git-2.47.1-64-bit.exe to C:\Users\micbm\Downloads\Other\Git-2.47.1-64-bit.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\GitHubDesktopSetup-x64.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\GitHubDesktopSetup-x64.exe to C:\Users\micbm\Downloads\Other\GitHubDesktopSetup-x64.exe
+INFO:root:Moved C:\Users\micbm\Downloads\GitHubDesktopSetup-x64.exe to C:\Users\micbm\Downloads\Other\GitHubDesktopSetup-x64.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\hwmonitor_1.55.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\hwmonitor_1.55.exe to C:\Users\micbm\Downloads\Other\hwmonitor_1.55.exe
+INFO:root:Moved C:\Users\micbm\Downloads\hwmonitor_1.55.exe to C:\Users\micbm\Downloads\Other\hwmonitor_1.55.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\jetbrains-toolbox-2.5.2.35332.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\jetbrains-toolbox-2.5.2.35332.exe to C:\Users\micbm\Downloads\Other\jetbrains-toolbox-2.5.2.35332.exe
+INFO:root:Moved C:\Users\micbm\Downloads\jetbrains-toolbox-2.5.2.35332.exe to C:\Users\micbm\Downloads\Other\jetbrains-toolbox-2.5.2.35332.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\LenovoAINow_Release_V1022_Once_PFM20241017_v1022b.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\LenovoAINow_Release_V1022_Once_PFM20241017_v1022b.exe to C:\Users\micbm\Downloads\Other\LenovoAINow_Release_V1022_Once_PFM20241017_v1022b.exe
+INFO:root:Moved C:\Users\micbm\Downloads\LenovoAINow_Release_V1022_Once_PFM20241017_v1022b.exe to C:\Users\micbm\Downloads\Other\LenovoAINow_Release_V1022_Once_PFM20241017_v1022b.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Lenovo_AI_Now_installer.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\Lenovo_AI_Now_installer.exe to C:\Users\micbm\Downloads\Other\Lenovo_AI_Now_installer.exe
+INFO:root:Moved C:\Users\micbm\Downloads\Lenovo_AI_Now_installer.exe to C:\Users\micbm\Downloads\Other\Lenovo_AI_Now_installer.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\LSBSetup.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\LSBSetup.exe to C:\Users\micbm\Downloads\Other\LSBSetup.exe
+INFO:root:Moved C:\Users\micbm\Downloads\LSBSetup.exe to C:\Users\micbm\Downloads\Other\LSBSetup.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\msys2-x86_64-20241116.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\msys2-x86_64-20241116.exe to C:\Users\micbm\Downloads\Other\msys2-x86_64-20241116.exe
+INFO:root:Moved C:\Users\micbm\Downloads\msys2-x86_64-20241116.exe to C:\Users\micbm\Downloads\Other\msys2-x86_64-20241116.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Ninite Brave Discord OneDrive Zoom Installer.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\Ninite Brave Discord OneDrive Zoom Installer.exe to C:\Users\micbm\Downloads\Other\Ninite Brave Discord OneDrive Zoom Installer.exe
+INFO:root:Moved C:\Users\micbm\Downloads\Ninite Brave Discord OneDrive Zoom Installer.exe to C:\Users\micbm\Downloads\Other\Ninite Brave Discord OneDrive Zoom Installer.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Notion Setup 4.0.0.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\Notion Setup 4.0.0.exe to C:\Users\micbm\Downloads\Other\Notion Setup 4.0.0.exe
+INFO:root:Moved C:\Users\micbm\Downloads\Notion Setup 4.0.0.exe to C:\Users\micbm\Downloads\Other\Notion Setup 4.0.0.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Obsidian-1.7.7.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\Obsidian-1.7.7.exe to C:\Users\micbm\Downloads\Other\Obsidian-1.7.7.exe
+INFO:root:Moved C:\Users\micbm\Downloads\Obsidian-1.7.7.exe to C:\Users\micbm\Downloads\Other\Obsidian-1.7.7.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\OfficeSetup.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\OfficeSetup.exe to C:\Users\micbm\Downloads\Other\OfficeSetup.exe
+INFO:root:Moved C:\Users\micbm\Downloads\OfficeSetup.exe to C:\Users\micbm\Downloads\Other\OfficeSetup.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Reader_en_install.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\Reader_en_install.exe to C:\Users\micbm\Downloads\Other\Reader_en_install.exe
+INFO:root:Moved C:\Users\micbm\Downloads\Reader_en_install.exe to C:\Users\micbm\Downloads\Other\Reader_en_install.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\SteamSetup.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\SteamSetup.exe to C:\Users\micbm\Downloads\Other\SteamSetup.exe
+INFO:root:Moved C:\Users\micbm\Downloads\SteamSetup.exe to C:\Users\micbm\Downloads\Other\SteamSetup.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\tick_win_setup_release_x64_6120.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\tick_win_setup_release_x64_6120.exe to C:\Users\micbm\Downloads\Other\tick_win_setup_release_x64_6120.exe
+INFO:root:Moved C:\Users\micbm\Downloads\tick_win_setup_release_x64_6120.exe to C:\Users\micbm\Downloads\Other\tick_win_setup_release_x64_6120.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\VC_redist.x64.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\VC_redist.x64.exe to C:\Users\micbm\Downloads\Other\VC_redist.x64.exe
+INFO:root:Moved C:\Users\micbm\Downloads\VC_redist.x64.exe to C:\Users\micbm\Downloads\Other\VC_redist.x64.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\VirtualBox-7.1.4-165100-Win.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\VirtualBox-7.1.4-165100-Win.exe to C:\Users\micbm\Downloads\Other\VirtualBox-7.1.4-165100-Win.exe
+INFO:root:Moved C:\Users\micbm\Downloads\VirtualBox-7.1.4-165100-Win.exe to C:\Users\micbm\Downloads\Other\VirtualBox-7.1.4-165100-Win.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\VSCodeUserSetup-x64-1.95.3.exe with extension .exe
+INFO:root:New file type detected: .exe
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:Moving C:\Users\micbm\Downloads\VSCodeUserSetup-x64-1.95.3.exe to C:\Users\micbm\Downloads\Other\VSCodeUserSetup-x64-1.95.3.exe
+INFO:root:Moved C:\Users\micbm\Downloads\VSCodeUserSetup-x64-1.95.3.exe to C:\Users\micbm\Downloads\Other\VSCodeUserSetup-x64-1.95.3.exe
+DEBUG:root:Categories loaded: {
+    "Documents & Data": {
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".txt",
+            ".odt",
+            ".rtf",
+            ".html",
+            ".epub",
+            ".md",
+            ".tex",
+            ".bib"
+        ],
+        "Data Files": [
+            ".csv",
+            ".xml",
+            ".json",
+            ".yaml",
+            ".yml",
+            ".ini",
+            ".conf",
+            ".log"
+        ]
+    },
+    "Development": {
+        "Source Code": [
+            ".py",
+            ".cpp",
+            ".java",
+            ".js",
+            ".html",
+            ".css",
+            ".rb",
+            ".go",
+            ".php",
+            ".c",
+            ".h"
+        ],
+        "Build Files": [
+            ".make",
+            ".cmake",
+            ".gradle"
+        ],
+        "Scripts": [
+            ".sh",
+            ".bash",
+            ".zsh",
+            ".pl",
+            ".lua",
+            ".awk"
+        ]
+    },
+    "Executables": {
+        "Binary Files": [
+            ".bin",
+            ".run",
+            ".out",
+            ".appimage"
+        ],
+        "Scripts": [
+            ".bash",
+            ".zsh"
+        ],
+        "Installers": [
+            ".deb",
+            ".rpm",
+            ".sh"
+        ]
+    },
+    "Archives": {
+        "Compressed Files": [
+            ".zip",
+            ".tar",
+            ".tar.gz",
+            ".7z",
+            ".gz",
+            ".bz2",
+            ".xz",
+            ".tgz"
+        ],
+        "Backups": [
+            ".bak",
+            ".backup",
+            ".old"
+        ]
+    },
+    "Disk Image": {
+        "Disk Images": [
+            ".iso",
+            ".img",
+            ".vmdk",
+            ".qcow2"
+        ]
+    },
+    "Multimedia": {
+        "Audio": [
+            ".mp3",
+            ".ogg",
+            ".wav",
+            ".flac",
+            ".m4a"
+        ],
+        "Video": [
+            ".mp4",
+            ".mkv",
+            ".webm",
+            ".avi",
+            ".mov",
+            ".wmv"
+        ],
+        "Images": [
+            ".jpg",
+            ".jpeg",
+            ".png",
+            ".gif",
+            ".bmp",
+            ".svg",
+            ".tiff",
+            ".raw",
+            ".xcf"
+        ]
+    },
+    "Presentations": {
+        "Presentation Files": [
+            ".pptx",
+            ".key",
+            ".ppt",
+            ".odp"
+        ]
+    },
+    "Spreadsheets": {
+        "Spreadsheet Files": [
+            ".xls",
+            ".xlsx",
+            ".ods",
+            ".csv"
+        ]
+    },
+    "Logs & System": {
+        "System Logs": [
+            ".log",
+            ".dmesg"
+        ],
+        "Configuration Files": [
+            ".conf",
+            ".ini"
+        ]
+    },
+    "Other": {
+        ".exe": []
+    }
+}
+DEBUG:root:Categories saved to JSON.
+DEBUG:root:No categories JSON found, using default categories.
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Anaconda3-2024.10-1-Windows-x86_64.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\Anaconda3-2024.10-1-Windows-x86_64.exe to C:\Users\micbm\Downloads\Executables\Installers\Anaconda3-2024.10-1-Windows-x86_64.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\ChromeSetup.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\ChromeSetup.exe to C:\Users\micbm\Downloads\Executables\Installers\ChromeSetup.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\eset_smart_security_premium_live_installer.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\eset_smart_security_premium_live_installer.exe to C:\Users\micbm\Downloads\Executables\Installers\eset_smart_security_premium_live_installer.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Git-2.47.1-64-bit.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\Git-2.47.1-64-bit.exe to C:\Users\micbm\Downloads\Executables\Installers\Git-2.47.1-64-bit.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\GitHubDesktopSetup-x64.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\GitHubDesktopSetup-x64.exe to C:\Users\micbm\Downloads\Executables\Installers\GitHubDesktopSetup-x64.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\hwmonitor_1.55.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\hwmonitor_1.55.exe to C:\Users\micbm\Downloads\Executables\Installers\hwmonitor_1.55.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\jetbrains-toolbox-2.5.2.35332.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\jetbrains-toolbox-2.5.2.35332.exe to C:\Users\micbm\Downloads\Executables\Installers\jetbrains-toolbox-2.5.2.35332.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\LenovoAINow_Release_V1022_Once_PFM20241017_v1022b.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\LenovoAINow_Release_V1022_Once_PFM20241017_v1022b.exe to C:\Users\micbm\Downloads\Executables\Installers\LenovoAINow_Release_V1022_Once_PFM20241017_v1022b.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Lenovo_AI_Now_installer.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\Lenovo_AI_Now_installer.exe to C:\Users\micbm\Downloads\Executables\Installers\Lenovo_AI_Now_installer.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\LSBSetup.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\LSBSetup.exe to C:\Users\micbm\Downloads\Executables\Installers\LSBSetup.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\msys2-x86_64-20241116.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\msys2-x86_64-20241116.exe to C:\Users\micbm\Downloads\Executables\Installers\msys2-x86_64-20241116.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Ninite Brave Discord OneDrive Zoom Installer.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\Ninite Brave Discord OneDrive Zoom Installer.exe to C:\Users\micbm\Downloads\Executables\Installers\Ninite Brave Discord OneDrive Zoom Installer.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Notion Setup 4.0.0.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\Notion Setup 4.0.0.exe to C:\Users\micbm\Downloads\Executables\Installers\Notion Setup 4.0.0.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Obsidian-1.7.7.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\Obsidian-1.7.7.exe to C:\Users\micbm\Downloads\Executables\Installers\Obsidian-1.7.7.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\OfficeSetup.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\OfficeSetup.exe to C:\Users\micbm\Downloads\Executables\Installers\OfficeSetup.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\Reader_en_install.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\Reader_en_install.exe to C:\Users\micbm\Downloads\Executables\Installers\Reader_en_install.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\SteamSetup.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\SteamSetup.exe to C:\Users\micbm\Downloads\Executables\Installers\SteamSetup.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\tick_win_setup_release_x64_6120.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\tick_win_setup_release_x64_6120.exe to C:\Users\micbm\Downloads\Executables\Installers\tick_win_setup_release_x64_6120.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\VC_redist.x64.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\VC_redist.x64.exe to C:\Users\micbm\Downloads\Executables\Installers\VC_redist.x64.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\VirtualBox-7.1.4-165100-Win.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\VirtualBox-7.1.4-165100-Win.exe to C:\Users\micbm\Downloads\Executables\Installers\VirtualBox-7.1.4-165100-Win.exe
+DEBUG:root:File extension: .exe
+INFO:root:Processing file: C:\Users\micbm\Downloads\VSCodeUserSetup-x64-1.95.3.exe with extension .exe
+INFO:root:Moved C:\Users\micbm\Downloads\VSCodeUserSetup-x64-1.95.3.exe to C:\Users\micbm\Downloads\Executables\Installers\VSCodeUserSetup-x64-1.95.3.exe

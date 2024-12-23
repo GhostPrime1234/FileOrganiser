@@ -24,30 +24,43 @@ class FileOrganizer:
         self.default_categories = {
             "Documents & Data": {
                 "Documents": [".pdf", ".docx", ".txt", ".odt", ".rtf", ".html", ".epub", ".md", ".tex", ".bib"],
-                "Data (CSV, XML, JSON, etc.)": [".csv", ".xml", ".json", ".yaml"]
+                "Data Files": [".csv", ".xml", ".json", ".yaml", ".yml", ".ini", ".conf", ".log"]
             },
             "Development": {
-                "Project": [".py", ".cpp", ".java", ".js", ".html", ".css", ".rb", ".go", ".php"]
+                "Source Code": [".py", ".cpp", ".java", ".js", ".html", ".css", ".rb", ".go", ".php", ".c", ".h"],
+                "Build Files": [".make", ".cmake", ".gradle"],
+                "Scripts": [".sh", ".bash", ".zsh", ".pl", ".lua", ".awk"]
             },
             "Executables": {
-                "Installers": [".exe", ".msi"],
-                "Scripts": [".bat", ".sh"]
+                "Binary Files": [".bin", ".run", ".out", ".appimage"],
+                "Scripts": [".bash", ".zsh"],
+                "Installers": [".deb", ".rpm", ".sh", ".exe"],
             },
             "Archives": {
-                "Compressed Files": [".zip", ".rar", ".tar", ".tar.gz", ".7z", ".gz"],
-                "Backups": [".bak", ".backup"]
+                "Compressed Files": [".zip", ".tar", ".tar.gz", ".7z", ".gz", ".bz2", ".xz", ".tgz"],
+                "Backups": [".bak", ".backup", ".old"]
             },
             "Disk Image": {
-                "ISO & Disk Images": [".iso", ".img"]
+                "Disk Images": [".iso", ".img", ".vmdk", ".qcow2"]
+            },
+            "Multimedia": {
+                "Audio": [".mp3", ".ogg", ".wav", ".flac", ".m4a"],
+                "Video": [".mp4", ".mkv", ".webm", ".avi", ".mov", ".wmv"],
+                "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".svg", ".tiff", ".raw", ".xcf"]
             },
             "Presentations": {
-                "PowerPoint Files": [".pptx", ".key", ".ppt"]
+                "Presentation Files": [".pptx", ".key", ".ppt", ".odp"]
             },
             "Spreadsheets": {
-                "Excel and CSV Files": [".xls", ".xlsx", ".csv"]
+                "Spreadsheet Files": [".xls", ".xlsx", ".ods", ".csv"]
+            },
+            "Logs & System": {
+                "System Logs": [".log", ".dmesg"],
+                "Configuration Files": [".conf", ".ini"]
             },
             "Other": {}  # For any files not recognized
         }
+
         self.categories = self.load_categories()
         print(f"Organizing folder: {self.folder_to_watch}")
 
@@ -220,10 +233,11 @@ class FileOrganizer:
         category_found = False
         for category, subcategories in self.categories.items():
             for subcategory, extensions in subcategories.items():
+
+                category_path = path.join(self.folder_to_watch, category, subcategory)
                 if file_extension in extensions:
                     category_found = True
                     # Move file to the correct subfolder
-                    category_path = path.join(self.folder_to_watch, category, subcategory)
                     if not path.exists(category_path):
                         makedirs(category_path)
                     new_path = path.join(category_path, path.basename(file_path))
